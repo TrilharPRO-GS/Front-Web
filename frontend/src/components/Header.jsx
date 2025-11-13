@@ -1,21 +1,32 @@
 import React from 'react';
+import Trilhar from '../assets/trilhar.png';
 
-export default function Header({ dark, setDark }){
+export default function Header({ dark, setDark }) {
+  const toggleDark = () => setDark(!dark);
+
   return (
-    <header className="flex items-center justify-between py-4 bg-[#21755c]">
-      <div className="flex items-center gap-3">
-        <div className="w-10 h-10 bg-linear-to-r from-indigo-500 to-pink-500 rounded-lg flex items-center justify-center text-white font-bold">TP</div>
+    <header className="flex flex-col sm:flex-row sm:items-center gap-3 px-6 py-3 justify-between bg-[#21755c] text-white">
+      <img src={Trilhar} alt="Trilhar" className="w-20 h-20" />
+
+      <div className="flex flex-col items-center">
         <h1 className="text-2xl font-semibold">TrilharPro</h1>
-        <span className="text-sm text-white ml-2 sm:inline flex-col">O futuro do trabalho</span>
+        <p className="text-sm">O futuro do trabalho</p>
       </div>
-      <div className="flex items-center gap-3">
-        <button
-          onClick={() => setDark(!dark)}
-          className="px-3 py-1 rounded-md border"
-        >
-          {dark ? 'Light' : 'Dark'}
-        </button>
-      </div>
+
+      <button
+        onClick={toggleDark}
+        className="px-3 py-1 rounded-md border border-white bg-white/10 hover:bg-white/20 transition flex items-center gap-2"
+      >
+        {dark ? (
+          <>
+            ☀️ <span className="hidden sm:inline">Modo Claro</span>
+          </>
+        ) : (
+          <>
+            🌙 <span className="hidden sm:inline">Modo Escuro</span>
+          </>
+        )}
+      </button>
     </header>
   );
 }

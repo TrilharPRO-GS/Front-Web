@@ -8,15 +8,10 @@ export default function Home(){
   const [perfis, setPerfis] = useState([]);
   const [filtered, setFiltered] = useState([]);
   const [selected, setSelected] = useState(null);
-  const [dark, setDark] = useState(false);
 
   useEffect(() => {
     fetchData();
   }, []);
-
-  useEffect(() => {
-    document.documentElement.classList.toggle('dark', dark);
-  }, [dark]);
 
   async function fetchData(){
     try{
