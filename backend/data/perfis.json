@@ -1,0 +1,2278 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Silva",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Engenheira de Software",
+    "resumo": "Especialista em desenvolvimento full-stack com foco em arquitetura de sistemas escaláveis",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Python", "React", "Node.js", "PostgreSQL", "Docker"],
+    "softSkills": ["Liderança", "Comunicação", "Trabalho em equipe", "Resolução de problemas"],
+    "experiencias": [
+      {
+        "empresa": "Tech Solutions",
+        "cargo": "Tech Lead",
+        "inicio": "2022-01",
+        "fim": "Presente",
+        "descricao": "Liderar equipe de 8 desenvolvedores e arquitetar soluções críticas"
+      },
+      {
+        "empresa": "Digital Innovations",
+        "cargo": "Senior Developer",
+        "inicio": "2020-03",
+        "fim": "2021-12",
+        "descricao": "Desenvolvimento de plataformas e-commerce com alta performance"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2018
+      },
+      {
+        "curso": "Especialização em Arquitetura de Software",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Platform de E-commerce Escalável",
+        "link": "https://github.com/ana-silva/ecommerce",
+        "descricao": "Plataforma que processa 10mil transações/dia com Node.js"
+      },
+      {
+        "titulo": "Dashboard de Análise em Tempo Real",
+        "link": "https://github.com/ana-silva/analytics",
+        "descricao": "Dashboard interativo com React e visualização de dados"
+      }
+    ],
+    "certificacoes": ["AWS Solutions Architect", "Docker Certified Associate", "Kubernetes Administration"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Cloud Computing", "Machine Learning", "DevOps"]
+  },
+  {
+    "id": 2,
+    "nome": "Carlos Mendes",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Analista de Negócios",
+    "resumo": "Profissional com 12 anos transformando requisitos complexos em soluções inovadoras",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Consultoria",
+    "habilidadesTecnicas": ["Business Analysis", "SQL", "Tableau", "Excel", "Salesforce"],
+    "softSkills": ["Negociação", "Análise crítica", "Gestão de Projetos", "Empatia"],
+    "experiencias": [
+      {
+        "empresa": "Consulting Experts",
+        "cargo": "Senior Business Analyst",
+        "inicio": "2021-06",
+        "fim": "Presente",
+        "descricao": "Consultoria estratégica para empresas Fortune 500"
+      },
+      {
+        "empresa": "Financial Corp",
+        "cargo": "Business Analyst",
+        "inicio": "2018-02",
+        "fim": "2021-05",
+        "descricao": "Análise de processos e otimização de sistemas financeiros"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Administração",
+        "instituicao": "IBMEC",
+        "ano": 2019
+      },
+      {
+        "curso": "Bacharelado em Administração",
+        "instituicao": "PUC-RJ",
+        "ano": 2012
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Transformação Digital Bancária",
+        "link": "https://portfolio.carlos-mendes.com/banco",
+        "descricao": "Implementação de processos digitais reduzindo custo em 30%"
+      }
+    ],
+    "certificacoes": ["CBAP - Certified Business Analysis Professional", "Six Sigma Green Belt"],
+    "idiomas": [
+      { "idioma": "Português", "nivel": "Nativo" },
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Espanhol", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Transformação Digital", "Inovação", "Estratégia Empresarial"]
+  },
+  {
+    "id": 3,
+    "nome": "Maria Santos",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Designer UX/UI",
+    "resumo": "Criativa e apaixonada por design centrado no usuário, com prêmios internacionais",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "Prototyping", "Adobe XD", "UI Design", "Usability Testing"],
+    "softSkills": ["Criatividade", "Empatia com usuário", "Apresentação", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "Creative Studio",
+        "cargo": "Lead Designer",
+        "inicio": "2020-05",
+        "fim": "Presente",
+        "descricao": "Direção criativa em projetos de design para startups"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design",
+        "instituicao": "Universidade Santa Cecília",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App de Fitness - Prêmio Red Dot",
+        "link": "https://mariadesign.com/fitness",
+        "descricao": "Design de interface premiado internacionalmente"
+      }
+    ],
+    "certificacoes": ["Google UX Design Certificate", "Interaction Design Foundation"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Design Thinking", "Acessibilidade", "Sustentabilidade"]
+  },
+  {
+    "id": 4,
+    "nome": "João Oliveira",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Desenvolvedor Backend",
+    "resumo": "Expert em microserviços e APIs REST com experiência em cloud",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Java", "Spring Boot", "PostgreSQL", "Kubernetes", "AWS"],
+    "softSkills": ["Atenção ao detalhe", "Proatividade", "Trabalho em equipe"],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Senior Backend Developer",
+        "inicio": "2019-08",
+        "fim": "Presente",
+        "descricao": "Desenvolvimento de APIs robustas para plataforma de e-commerce"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Engenharia da Computação",
+        "instituicao": "UFMG",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Arquitetura de Microserviços",
+        "link": "https://github.com/joao-oliveira/microservices",
+        "descricao": "Sistema de microserviços com Spring Cloud e Kafka"
+      }
+    ],
+    "certificacoes": ["AWS Certified Solutions Architect"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Cloud Native", "DevOps", "Performance"]
+  },
+  {
+    "id": 5,
+    "nome": "Fernanda Costa",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Gerente de Marketing Digital",
+    "resumo": "Especialista em growth marketing e estratégias de conversão para startups",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Google Analytics", "SEO/SEM", "Marketing Automation", "CRM"],
+    "softSkills": ["Visão estratégica", "Persuasão", "Criatividade", "Análise"],
+    "experiencias": [
+      {
+        "empresa": "Growth Ventures",
+        "cargo": "Head of Marketing",
+        "inicio": "2021-03",
+        "fim": "Presente",
+        "descricao": "Liderança da estratégia de marketing para portfolio de startups"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Marketing",
+        "instituicao": "ESPM",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Campanha Growth para SaaS",
+        "link": "https://portfolio.fernanda-costa.com/saas",
+        "descricao": "Aumentou MRR em 250% em 6 meses"
+      }
+    ],
+    "certificacoes": ["Google Ads Certified", "HubSpot Inbound Marketing"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Growth Hacking", "Data Analytics", "Tendências Digitais"]
+  },
+  {
+    "id": 6,
+    "nome": "Ricardo Alves",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Data Scientist",
+    "resumo": "Cientista de dados com foco em machine learning e análise preditiva",
+    "localizacao": "Brasília/DF",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "R", "TensorFlow", "SQL", "Tableau"],
+    "softSkills": ["Pensamento analítico", "Storytelling", "Curiosidade", "Paciência"],
+    "experiencias": [
+      {
+        "empresa": "Data Labs",
+        "cargo": "Principal Data Scientist",
+        "inicio": "2020-01",
+        "fim": "Presente",
+        "descricao": "Desenvolvimento de modelos preditivos para otimização"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Doutorado em Ciência da Computação",
+        "instituicao": "UnB",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelo de Previsão de Churn",
+        "link": "https://github.com/ricardo-alves/churn-prediction",
+        "descricao": "Modelo com 94% de acurácia em retensão de clientes"
+      }
+    ],
+    "certificacoes": ["AWS Certified Machine Learning Specialty"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["IA Ética", "Big Data", "Computação Quântica"]
+  },
+  {
+    "id": 7,
+    "nome": "Juliana Torres",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Gerente de Projetos",
+    "resumo": "Profissional experiente em gestão ágil e liderança de equipes multidisciplinares",
+    "localizacao": "Salvador/BA",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["Agile", "Scrum", "Jira", "Asana", "Risk Management"],
+    "softSkills": ["Liderança", "Comunicação", "Negociação", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Project Excellence",
+        "cargo": "Senior Project Manager",
+        "inicio": "2018-07",
+        "fim": "Presente",
+        "descricao": "Gestão de projetos com orçamentos acima de R$5M"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de Projetos",
+        "instituicao": "FGV",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Implementação SAP",
+        "link": "https://portfolio.juliana-torres.com/sap",
+        "descricao": "Gestão de projeto complexo com 50+ stakeholders"
+      }
+    ],
+    "certificacoes": ["PMP - Project Management Professional", "CSM - Certified Scrum Master"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Gestão Ágil", "Liderança", "Inovação"]
+  },
+  {
+    "id": 8,
+    "nome": "Lucas Ferreira",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Desenvolvedor Frontend",
+    "resumo": "Especialista em React e desenvolvimento web moderno com foco em performance",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "TypeScript", "Tailwind CSS", "Next.js", "GraphQL"],
+    "softSkills": ["Atenção ao detalhe", "Criatividade", "Comunicação", "Adaptabilidade"],
+    "experiencias": [
+      {
+        "empresa": "Frontend Masters",
+        "cargo": "Senior Frontend Developer",
+        "inicio": "2020-11",
+        "fim": "Presente",
+        "descricao": "Desenvolvimento de interfaces complexas e high-performance"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bootcamp Full Stack",
+        "instituicao": "Rocketseat",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "E-commerce com Conversão Otimizada",
+        "link": "https://github.com/lucas-ferreira/ecommerce",
+        "descricao": "Melhorou conversão em 45% com otimização de performance"
+      }
+    ],
+    "certificacoes": ["React Advanced Patterns", "Web Performance Optimization"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Performance Web", "Acessibilidade", "Design Systems"]
+  },
+  {
+    "id": 9,
+    "nome": "Patricia Gomes",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Product Manager",
+    "resumo": "Liderança estratégica em desenvolvimento de produtos digitais com bilhões de usuários",
+    "localizacao": "São Paulo/SP",
+    "area": "Produto",
+    "habilidadesTecnicas": ["Product Strategy", "User Research", "Analytics", "Roadmapping"],
+    "softSkills": ["Visão estratégica", "Empatia", "Pensamento crítico", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Tech Giants",
+        "cargo": "Senior Product Manager",
+        "inicio": "2019-02",
+        "fim": "Presente",
+        "descricao": "Liderança de produto para aplicativo com 10M+ usuários"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Administração",
+        "instituicao": "INSPER",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Lançamento de Novo Produto",
+        "link": "https://portfolio.patricia-gomes.com/launch",
+        "descricao": "Produto gerou R$50M em receita no primeiro ano"
+      }
+    ],
+    "certificacoes": ["Reforge - Advanced Product Strategy", "Jobs to be Done"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Product Strategy", "User Experience", "Market Trends"]
+  },
+  {
+    "id": 10,
+    "nome": "Bruno Silva",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "DevOps Engineer",
+    "resumo": "Especialista em infraestrutura cloud e CI/CD com expertise em automação",
+    "localizacao": "Recife/PE",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Docker", "Kubernetes", "AWS", "Terraform", "Jenkins"],
+    "softSkills": ["Resolução de problemas", "Documentação", "Comunicação", "Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "Cloud Infrastructure",
+        "cargo": "Lead DevOps Engineer",
+        "inicio": "2019-05",
+        "fim": "Presente",
+        "descricao": "Gestão de infraestrutura crítica com 99.99% uptime"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Sistemas de Informação",
+        "instituicao": "UFPE",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Migração Kubernetes",
+        "link": "https://github.com/bruno-silva/k8s-migration",
+        "descricao": "Migração de 200+ aplicações com zero downtime"
+      }
+    ],
+    "certificacoes": ["CKA - Certified Kubernetes Administrator", "AWS Solutions Architect"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Cloud Native", "Security", "Automation"]
+  },
+  {
+    "id": 11,
+    "nome": "Gabriela Souza",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Desenvolvedora Mobile",
+    "resumo": "Desenvolvedora Flutter e React Native com apps na App Store e Play Store",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Flutter", "React Native", "Dart", "Firebase", "Swift"],
+    "softSkills": ["Criatividade", "Colaboração", "Resolução de problemas", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Mobile Innovation",
+        "cargo": "Senior Mobile Developer",
+        "inicio": "2020-04",
+        "fim": "Presente",
+        "descricao": "Desenvolvimento de aplicativos com milhões de downloads"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "UNICAMP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App Lifestyle com 2M+ downloads",
+        "link": "https://apps.apple.com/br/app/lifestyle",
+        "descricao": "App com rating 4.8 estrelas na App Store"
+      }
+    ],
+    "certificacoes": ["Google Developer Expert - Flutter"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["AI Mobile", "App Performance", "User Experience"]
+  },
+  {
+    "id": 12,
+    "nome": "Diego Martins",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Especialista em Segurança",
+    "resumo": "Expert em cibersegurança com certificações internacionais e experiência em pentesting",
+    "localizacao": "São Paulo/SP",
+    "area": "Segurança",
+    "habilidadesTecnicas": ["Penetration Testing", "Security Auditing", "SSL/TLS", "OWASP", "Linux"],
+    "softSkills": ["Atenção ao detalhe", "Pensamento estratégico", "Documentação", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "CyberSecurity Solutions",
+        "cargo": "Senior Security Consultant",
+        "inicio": "2018-09",
+        "fim": "Presente",
+        "descricao": "Consultoria de segurança para instituições financeiras"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Segurança da Informação",
+        "instituicao": "UFMG",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Pentest em Sistema Bancário",
+        "link": "https://portfolio.diego-martins.com/banking",
+        "descricao": "Identificou 150+ vulnerabilidades críticas"
+      }
+    ],
+    "certificacoes": ["CEH - Certified Ethical Hacker", "OSCP - Offensive Security Certified Professional"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Zero Trust Architecture", "Criptografia", "Forensics"]
+  },
+  {
+    "id": 13,
+    "nome": "Isabella Rocha",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "UX Researcher",
+    "resumo": "Pesquisadora experiente em metodologias qualitativas e quantitativas de UX",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": ["User Research", "Usability Testing", "Surveys", "Analytics", "Figma"],
+    "softSkills": ["Empatia", "Criatividade", "Comunicação", "Pensamento crítico"],
+    "experiencias": [
+      {
+        "empresa": "UX Research Lab",
+        "cargo": "Senior UX Researcher",
+        "inicio": "2019-08",
+        "fim": "Presente",
+        "descricao": "Conduz pesquisas que impactam decisões de produto"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Design",
+        "instituicao": "PUC-Rio",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Estudo Longitudinal de Comportamento",
+        "link": "https://portfolio.isabella-rocha.com/research",
+        "descricao": "Pesquisa com 5000+ usuários identificando padrões críticos"
+      }
+    ],
+    "certificacoes": ["Nielsen Norman UX Research", "Interaction Design Foundation"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["User Behavior", "Design Research", "Accessibility"]
+  },
+  {
+    "id": 14,
+    "nome": "Felipe Costa",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Analista de Dados",
+    "resumo": "Especialista em business intelligence e dashboards interativos",
+    "localizacao": "Brasília/DF",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Power BI", "SQL Server", "Python", "Tableau", "Excel"],
+    "softSkills": ["Análise lógica", "Storytelling", "Atenção ao detalhe", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "BI Solutions",
+        "cargo": "Senior Data Analyst",
+        "inicio": "2020-02",
+        "fim": "Presente",
+        "descricao": "Criação de dashboards estratégicos para C-level"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Estatística",
+        "instituicao": "UnB",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard de Vendas em Tempo Real",
+        "link": "https://portfolio.felipe-costa.com/dashboard",
+        "descricao": "Dashboard que reduz tempo de análise em 80%"
+      }
+    ],
+    "certificacoes": ["Microsoft Certified Data Analyst", "Tableau Desktop Specialist"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Business Intelligence", "Data Visualization", "Predictive Analytics"]
+  },
+  {
+    "id": 15,
+    "nome": "Camila Fernandes",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "QA Engineer",
+    "resumo": "Engenheira de QA especializada em automação de testes e garantia de qualidade",
+    "localizacao": "Curitiba/PR",
+    "area": "Qualidade",
+    "habilidadesTecnicas": ["Selenium", "JUnit", "TestNG", "Appium", "CI/CD"],
+    "softSkills": ["Atenção ao detalhe", "Resolução de problemas", "Comunicação", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Quality Assurance Labs",
+        "cargo": "QA Automation Lead",
+        "inicio": "2019-03",
+        "fim": "Presente",
+        "descricao": "Liderança de equipe de automação de testes"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Sistemas de Informação",
+        "instituicao": "UTFPR",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Framework de Automação",
+        "link": "https://github.com/camila-fernandes/qa-framework",
+        "descricao": "Framework que aumentou cobertura de testes em 300%"
+      }
+    ],
+    "certificacoes": ["ISTQB Certified Tester", "Selenium WebDriver Advanced"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Test Automation", "Performance Testing", "CI/CD"]
+  },
+  {
+    "id": 16,
+    "nome": "Víctor Gomes",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Solutions Architect",
+    "resumo": "Arquiteto experiente em desenho de soluções cloud para grandes corporações",
+    "localizacao": "São Paulo/SP",
+    "area": "Arquitetura",
+    "habilidadesTecnicas": ["AWS", "Azure", "Architecture Design", "Microservices", "Docker"],
+    "softSkills": ["Visão estratégica", "Comunicação", "Negociação", "Leadership"],
+    "experiencias": [
+      {
+        "empresa": "Enterprise Solutions",
+        "cargo": "Principal Solutions Architect",
+        "inicio": "2018-01",
+        "fim": "Presente",
+        "descricao": "Arquitetura de soluções enterprise para Fortune 500"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Administração",
+        "instituicao": "FGV",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Arquitetura Cloud Corporativa",
+        "link": "https://portfolio.victor-gomes.com/cloud",
+        "descricao": "Arquitetura com economia de 40% em custos de infraestrutura"
+      }
+    ],
+    "certificacoes": ["AWS Solutions Architect Professional", "Azure Solutions Architect Expert"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Cloud Architecture", "Enterprise Design", "Innovation"]
+  },
+  {
+    "id": 17,
+    "nome": "Renata Silva",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Content Strategist",
+    "resumo": "Estrategista de conteúdo com experiência em múltiplos canais digitais",
+    "localizacao": "Recife/PE",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Content Management", "SEO Writing", "Analytics", "WordPress", "CMS"],
+    "softSkills": ["Criatividade", "Storytelling", "Comunicação", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Content First",
+        "cargo": "Head of Content",
+        "inicio": "2020-06",
+        "fim": "Presente",
+        "descricao": "Estratégia de conteúdo para múltiplas marcas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-Graduação em Marketing Digital",
+        "instituicao": "ESPM",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Estratégia de Conteúdo em Blog",
+        "link": "https://portfolio.renata-silva.com/blog",
+        "descricao": "Crescimento de 500% no tráfego orgânico"
+      }
+    ],
+    "certificacoes": ["HubSpot Content Marketing Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Storytelling", "SEO", "Digital Strategy"]
+  },
+  {
+    "id": 18,
+    "nome": "Thiago Oliveira",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Tech Lead",
+    "resumo": "Líder técnico com 15 anos de experiência em desenvolvimento de software",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Java", "Node.js", "Microservices", "DDD", "Testing"],
+    "softSkills": ["Liderança", "Mentoring", "Comunicação", "Visão estratégica"],
+    "experiencias": [
+      {
+        "empresa": "Tech Leading",
+        "cargo": "Senior Tech Lead",
+        "inicio": "2019-11",
+        "fim": "Presente",
+        "descricao": "Liderança técnica de múltiplos times de desenvolvimento"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Ciência da Computação",
+        "instituicao": "UFMG",
+        "ano": 2012
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Mentorship Program",
+        "link": "https://github.com/thiago-oliveira/mentorship",
+        "descricao": "Programa que desenvolveu 50+ engenheiros sênior"
+      }
+    ],
+    "certificacoes": ["Certified Scrum Master", "Domain Driven Design Practitioner"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Software Architecture", "Team Leadership", "Mentoring"]
+  },
+  {
+    "id": 19,
+    "nome": "Adriana Santos",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Recrutadora Tech",
+    "resumo": "Especialista em recrutamento de talentos tech com network global",
+    "localizacao": "São Paulo/SP",
+    "area": "Recursos Humanos",
+    "habilidadesTecnicas": ["Recruitment", "Talent Sourcing", "LinkedIn", "ATS", "Assessment"],
+    "softSkills": ["Networking", "Comunicação", "Empatia", "Negociação"],
+    "experiencias": [
+      {
+        "empresa": "Tech Talent",
+        "cargo": "Head of Recruitment",
+        "inicio": "2018-04",
+        "fim": "Presente",
+        "descricao": "Recrutamento de 200+ profissionais tech/ano"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-Graduação em Gestão de Pessoas",
+        "instituicao": "FGV",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Programa de Trainee Tech",
+        "link": "https://portfolio.adriana-santos.com/trainee",
+        "descricao": "Programa que formou 100+ engenheiros juniores"
+      }
+    ],
+    "certificacoes": ["LinkedIn Recruiter Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Talent Development", "Diversity & Inclusion", "Career Growth"]
+  },
+  {
+    "id": 20,
+    "nome": "Marcus Aurelio",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "CTO",
+    "resumo": "Chief Technology Officer com visão estratégica e liderança em transformação digital",
+    "localizacao": "São Paulo/SP",
+    "area": "Executivo",
+    "habilidadesTecnicas": ["Strategic Planning", "Technology Strategy", "Leadership", "Innovation"],
+    "softSkills": ["Visão estratégica", "Liderança", "Comunicação", "Negociação"],
+    "experiencias": [
+      {
+        "empresa": "Digital Transformation Corp",
+        "cargo": "CTO",
+        "inicio": "2020-01",
+        "fim": "Presente",
+        "descricao": "Liderança de transformação digital em empresa Fortune 500"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão Estratégica",
+        "instituicao": "INSPER",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Transformação Digital",
+        "link": "https://portfolio.marcus.aurelio.com/transformation",
+        "descricao": "Liderou modernização de stack tecnológico de empresa legacy"
+      }
+    ],
+    "certificacoes": ["Executive Leadership Program"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Digital Transformation", "Innovation", "Strategy"]
+  },
+  {
+    "id": 21,
+    "nome": "Beatriz Costa",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Graphic Designer",
+    "resumo": "Designer gráfico criativo com expertise em branding e identidade visual",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": ["Adobe Creative Suite", "Branding", "Typography", "Web Design", "Motion Graphics"],
+    "softSkills": ["Criatividade", "Comunicação", "Atenção ao detalhe", "Paciência"],
+    "experiencias": [
+      {
+        "empresa": "Creative Agency",
+        "cargo": "Senior Graphic Designer",
+        "inicio": "2019-05",
+        "fim": "Presente",
+        "descricao": "Design de identidades visuais para marcas de diversos setores"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Gráfico",
+        "instituicao": "ESDI",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Branding de Startup Tech",
+        "link": "https://portfolio.beatriz-costa.com/startup",
+        "descricao": "Identidade visual premiada internacionalmente"
+      }
+    ],
+    "certificacoes": ["Adobe Certified Associate Designer"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Branding", "Typography", "Sustainability Design"]
+  },
+  {
+    "id": 22,
+    "nome": "Eduardo Nunes",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Analista Financeiro",
+    "resumo": "Especialista em análise financeira e planejamento estratégico para startups",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Finanças",
+    "habilidadesTecnicas": ["Financial Analysis", "Excel", "SAP", "Bloomberg", "Valuation"],
+    "softSkills": ["Análise numérica", "Comunicação", "Visão estratégica", "Atenção ao detalhe"],
+    "experiencias": [
+      {
+        "empresa": "Finance Group",
+        "cargo": "Senior Financial Analyst",
+        "inicio": "2018-09",
+        "fim": "Presente",
+        "descricao": "Análise financeira e planejamento para portfolio de empresas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Finanças",
+        "instituicao": "IBMEC",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelo Financeiro de Startup",
+        "link": "https://portfolio.eduardo-nunes.com/model",
+        "descricao": "Modelo financeiro que atraiu investimento de R$10M"
+      }
+    ],
+    "certificacoes": ["CFA Level II", "Bloomberg Market Concepts"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Financial Modeling", "Investment Analysis", "Startup Finance"]
+  },
+  {
+    "id": 23,
+    "nome": "Fernanda Almeida",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Consultora Jurídica",
+    "resumo": "Advogada especializada em direito digital e compliance para tech",
+    "localizacao": "São Paulo/SP",
+    "area": "Jurídico",
+    "habilidadesTecnicas": ["Legal Analysis", "Compliance", "Contract Review", "Regulatory", "LGPD"],
+    "softSkills": ["Análise crítica", "Comunicação", "Negociação", "Atenção ao detalhe"],
+    "experiencias": [
+      {
+        "empresa": "Tech Legal",
+        "cargo": "Senior Legal Advisor",
+        "inicio": "2017-03",
+        "fim": "Presente",
+        "descricao": "Consultoria jurídica para empresas tech e startups"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Direito Digital",
+        "instituicao": "FGV",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Compliance LGPD",
+        "link": "https://portfolio.fernanda-almeida.com/lgpd",
+        "descricao": "Implementação de compliance LGPD para 20+ startups"
+      }
+    ],
+    "certificacoes": ["OAB", "LGPD Specialist"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Digital Law", "Data Privacy", "Compliance"]
+  },
+  {
+    "id": 24,
+    "nome": "Gustavo Rocha",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Sales Manager",
+    "resumo": "Gestor de vendas com track record de crescimento exponencial em SaaS",
+    "localizacao": "Brasília/DF",
+    "area": "Vendas",
+    "habilidadesTecnicas": ["Sales Strategy", "CRM", "Forecasting", "Negotiation", "Pipeline Management"],
+    "softSkills": ["Persuasão", "Liderança", "Networking", "Resiliência"],
+    "experiencias": [
+      {
+        "empresa": "SaaS Unlimited",
+        "cargo": "VP of Sales",
+        "inicio": "2020-02",
+        "fim": "Presente",
+        "descricao": "Liderança de vendas com crescimento de 300% ao ano"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-Graduação em Gestão Comercial",
+        "instituicao": "FGV",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Estratégia de Vendas Enterprise",
+        "link": "https://portfolio.gustavo-rocha.com/sales",
+        "descricao": "Conquistou 50+ clientes enterprise com ACV médio de R$500K"
+      }
+    ],
+    "certificacoes": ["Salesforce Administrator", "Sales Hacker Certified"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["SaaS Sales", "Enterprise Sales", "Sales Analytics"]
+  },
+  {
+    "id": 25,
+    "nome": "Helena Santos",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Gerente de Operações",
+    "resumo": "Especialista em processos operacionais e otimização de performance",
+    "localizacao": "Curitiba/PR",
+    "area": "Operações",
+    "habilidadesTecnicas": ["Process Optimization", "Lean Six Sigma", "ERP", "Analytics", "Compliance"],
+    "softSkills": ["Organização", "Liderança", "Resolução de problemas", "Atenção ao detalhe"],
+    "experiencias": [
+      {
+        "empresa": "Operations Excellence",
+        "cargo": "Senior Operations Manager",
+        "inicio": "2019-07",
+        "fim": "Presente",
+        "descricao": "Otimização de processos resultando em economia de 25%"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Administração de Operações",
+        "instituicao": "USP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Lean Implementation",
+        "link": "https://portfolio.helena-santos.com/lean",
+        "descricao": "Implementação Lean que reduziu desperdício em 40%"
+      }
+    ],
+    "certificacoes": ["Green Belt Six Sigma", "APICS CSCP"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Process Improvement", "Supply Chain", "Sustainability"]
+  },
+  {
+    "id": 26,
+    "nome": "Ignacio Fernandes",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Business Development Manager",
+    "resumo": "Profissional com expertise em parcerias estratégicas e expansão de negócios",
+    "localizacao": "São Paulo/SP",
+    "area": "Negócios",
+    "habilidadesTecnicas": ["Strategic Partnerships", "Negotiation", "Market Analysis", "CRM", "Sales"],
+    "softSkills": ["Networking", "Visão estratégica", "Comunicação", "Persistência"],
+    "experiencias": [
+      {
+        "empresa": "Growth Ventures",
+        "cargo": "Senior BD Manager",
+        "inicio": "2018-06",
+        "fim": "Presente",
+        "descricao": "Desenvolvimento de parcerias que geraram R$50M em receita"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Negócios",
+        "instituicao": "ESPM",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Expansão Internacional",
+        "link": "https://portfolio.ignacio-fernandes.com/expansion",
+        "descricao": "Expansão para 5 países com 200+ parcerias estabelecidas"
+      }
+    ],
+    "certificacoes": ["Strategic Partnerships Professional"],
+    "idiomas": [
+      { "idioma": "Português", "nivel": "Nativo" },
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Espanhol", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["International Expansion", "Strategic Partnerships", "Market Development"]
+  },
+  {
+    "id": 27,
+    "nome": "Juliana Peixoto",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Brand Manager",
+    "resumo": "Estrategista de marca com experiência em posicionamento e comunicação",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Brand Strategy", "Market Research", "Communications", "Analytics", "Digital Marketing"],
+    "softSkills": ["Criatividade", "Comunicação", "Visão estratégica", "Storytelling"],
+    "experiencias": [
+      {
+        "empresa": "Brand Leaders",
+        "cargo": "Senior Brand Manager",
+        "inicio": "2020-03",
+        "fim": "Presente",
+        "descricao": "Gestão de portfolio de marcas com faturamento de R$500M"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Marketing e Negócios",
+        "instituicao": "FGV",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Rebranding Corporativo",
+        "link": "https://portfolio.juliana-peixoto.com/rebranding",
+        "descricao": "Rebranding que aumentou brand awareness em 150%"
+      }
+    ],
+    "certificacoes": ["Brand Management Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Brand Strategy", "Consumer Psychology", "Digital Branding"]
+  },
+  {
+    "id": 28,
+    "nome": "Kevin Santana",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Customer Success Manager",
+    "resumo": "Especialista em retenção de clientes e maximização de customer lifetime value",
+    "localizacao": "Salvador/BA",
+    "area": "Sucesso do Cliente",
+    "habilidadesTecnicas": ["Customer Success", "Onboarding", "CRM", "Analytics", "Product Knowledge"],
+    "softSkills": ["Empatia", "Comunicação", "Resolução de problemas", "Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "SaaS Success",
+        "cargo": "Senior CS Manager",
+        "inicio": "2019-04",
+        "fim": "Presente",
+        "descricao": "Redução de churn para 2% através de estratégias de retenção"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bootcamp Customer Success",
+        "instituicao": "Gainsight",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Onboarding Program",
+        "link": "https://portfolio.kevin-santana.com/onboarding",
+        "descricao": "Programa que aumentou adoção de produto em 80%"
+      }
+    ],
+    "certificacoes": ["Gainsight Certified Practitioner"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Customer Experience", "SaaS Metrics", "Retention Strategy"]
+  },
+  {
+    "id": 29,
+    "nome": "Larissa Martins",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Cientista Ambiental",
+    "resumo": "Pesquisadora em sustentabilidade e impacto ambiental com foco em soluções tech",
+    "localizacao": "Recife/PE",
+    "area": "Sustentabilidade",
+    "habilidadesTecnicas": ["Environmental Analysis", "Data Science", "GIS", "Python", "Research"],
+    "softSkills": ["Pensamento crítico", "Pesquisa", "Comunicação", "Paixão ambiental"],
+    "experiencias": [
+      {
+        "empresa": "EcoTech Solutions",
+        "cargo": "Senior Environmental Scientist",
+        "inicio": "2018-05",
+        "fim": "Presente",
+        "descricao": "Pesquisa em soluções tech para sustentabilidade"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Doutorado em Ciências Ambientais",
+        "instituicao": "UFPE",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Platform de Monitoramento Ambiental",
+        "link": "https://portfolio.larissa-martins.com/monitoring",
+        "descricao": "Platform que monitora qualidade do ar em 20 cidades"
+      }
+    ],
+    "certificacoes": ["LEED AP", "Environmental Management ISO 14001"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Climate Tech", "Sustainability", "Environmental Justice"]
+  },
+  {
+    "id": 30,
+    "nome": "Mateus Costa",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Machine Learning Engineer",
+    "resumo": "Engenheiro especializado em ML ops e modelos de produção em larga escala",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["TensorFlow", "PyTorch", "ML Ops", "Python", "MLflow"],
+    "softSkills": ["Resolução de problemas", "Pesquisa", "Comunicação", "Persistência"],
+    "experiencias": [
+      {
+        "empresa": "AI Factory",
+        "cargo": "Senior ML Engineer",
+        "inicio": "2020-08",
+        "fim": "Presente",
+        "descricao": "Desenvolvimento de modelos ML em produção servindo 10M+ usuários"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Machine Learning",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelo de Recomendação em Tempo Real",
+        "link": "https://github.com/mateus-costa/recommendation",
+        "descricao": "Modelo que aumentou engajamento em 35%"
+      }
+    ],
+    "certificacoes": ["AWS Machine Learning Specialty", "DataCamp ML Engineer"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["ML Ops", "Large Language Models", "Computer Vision"]
+  },
+  {
+    "id": 31,
+    "nome": "Natalia Ribeiro",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Community Manager",
+    "resumo": "Geradora de comunidades online engajadas com expertise em social media",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Community Management", "Social Media", "Analytics", "Content Strategy", "Engagement"],
+    "softSkills": ["Comunicação", "Empatia", "Criatividade", "Networking"],
+    "experiencias": [
+      {
+        "empresa": "Community First",
+        "cargo": "Head of Community",
+        "inicio": "2019-09",
+        "fim": "Presente",
+        "descricao": "Gerenciamento de comunidade com 100k+ membros ativos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-Graduação em Social Media",
+        "instituicao": "ESPM",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Evento Virtual Comunidade",
+        "link": "https://portfolio.natalia-ribeiro.com/event",
+        "descricao": "Evento que atraiu 50k+ participantes ao vivo"
+      }
+    ],
+    "certificacoes": ["Community Manager Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Community Building", "Social Impact", "Creator Economy"]
+  },
+  {
+    "id": 32,
+    "nome": "Otavio Gomes",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Database Administrator",
+    "resumo": "DBA experiente em otimização de bancos de dados e arquitetura de dados",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["PostgreSQL", "Oracle", "Performance Tuning", "Backup Strategy", "Monitoring"],
+    "softSkills": ["Atenção ao detalhe", "Resolução de problemas", "Documentação", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Database Solutions",
+        "cargo": "Senior DBA",
+        "inicio": "2017-02",
+        "fim": "Presente",
+        "descricao": "Gestão de bancos de dados críticos com terrabytes de dados"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Sistemas de Informação",
+        "instituicao": "UFRGS",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Otimização de Performance",
+        "link": "https://portfolio.otavio-gomes.com/optimization",
+        "descricao": "Redução de tempo de query em 90%"
+      }
+    ],
+    "certificacoes": ["Oracle Certified Associate DBA", "PostgreSQL Advanced"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Database Performance", "Data Architecture", "Disaster Recovery"]
+  },
+  {
+    "id": 33,
+    "nome": "Patricia Oliveira",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Technical Writer",
+    "resumo": "Escritora técnica especializada em documentação de APIs e tutoriais",
+    "localizacao": "Brasília/DF",
+    "area": "Documentação",
+    "habilidadesTecnicas": ["Technical Documentation", "API Documentation", "Markdown", "Sphinx", "Git"],
+    "softSkills": ["Comunicação clara", "Atenção ao detalhe", "Empatia com leitor", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Doc First",
+        "cargo": "Senior Technical Writer",
+        "inicio": "2018-10",
+        "fim": "Presente",
+        "descricao": "Documentação para plataformas tech com milhões de usuários"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-Graduação em Comunicação",
+        "instituicao": "UnB",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Documentação API Completa",
+        "link": "https://portfolio.patricia-oliveira.com/docs",
+        "descricao": "Documentação que reduziu support tickets em 50%"
+      }
+    ],
+    "certificacoes": ["Write The Docs Practitioner"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["API Documentation", "Developer Experience", "Open Source Docs"]
+  },
+  {
+    "id": 34,
+    "nome": "Quentin Silva",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Product Designer",
+    "resumo": "Designer de produto com foco em user experience e design thinking",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "User Research", "Prototyping", "Design Systems", "Accessibility"],
+    "softSkills": ["Empatia", "Pensamento crítico", "Criatividade", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "Product Design Hub",
+        "cargo": "Senior Product Designer",
+        "inicio": "2019-07",
+        "fim": "Presente",
+        "descricao": "Design de produtos que impactaram 5M+ usuários"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design",
+        "instituicao": "Universidade Santa Cecília",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Design System Corporativo",
+        "link": "https://portfolio.quentin-silva.com/ds",
+        "descricao": "Design system que standardizou 200+ componentes"
+      }
+    ],
+    "certificacoes": ["Interaction Design Foundation Advanced"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Design Systems", "Accessibility", "Human-Centered Design"]
+  },
+  {
+    "id": 35,
+    "nome": "Regina Ferreira",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Quality Engineer",
+    "resumo": "Engenheira de qualidade especializada em testing estratégico e automação",
+    "localizacao": "Curitiba/PR",
+    "area": "Qualidade",
+    "habilidadesTecnicas": ["Test Strategy", "Automation", "Selenium", "Performance Testing", "CI/CD"],
+    "softSkills": ["Atenção ao detalhe", "Pensamento crítico", "Comunicação", "Persistência"],
+    "experiencias": [
+      {
+        "empresa": "Quality First",
+        "cargo": "Senior Quality Engineer",
+        "inicio": "2018-03",
+        "fim": "Presente",
+        "descricao": "Liderança de estratégia de quality para aplicações críticas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Engenharia de Software",
+        "instituicao": "UFPR",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Framework de Automação",
+        "link": "https://github.com/regina-ferreira/qa-framework",
+        "descricao": "Framework reutilizável que padronizou testing em 30 projetos"
+      }
+    ],
+    "certificacoes": ["ISTQB Certified Tester Advanced Level"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Test Automation", "Quality Metrics", "Performance Testing"]
+  },
+  {
+    "id": 36,
+    "nome": "Samuel Costa",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Infrastructure Engineer",
+    "resumo": "Engenheiro de infraestrutura com expertise em cloud e on-premise",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["AWS", "Terraform", "Ansible", "Linux", "Networking"],
+    "softSkills": ["Resolução de problemas", "Documentação", "Comunicação", "Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "Infrastructure Works",
+        "cargo": "Senior Infrastructure Engineer",
+        "inicio": "2019-06",
+        "fim": "Presente",
+        "descricao": "Gestão de infraestrutura para múltiplas regiões geográficas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Sistemas de Informação",
+        "instituicao": "UFRJ",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Multi-Cloud Migration",
+        "link": "https://portfolio.samuel-costa.com/migration",
+        "descricao": "Migração de 100 servidores com zero downtime"
+      }
+    ],
+    "certificacoes": ["AWS Solutions Architect Professional", "HashiCorp Certified Terraform Associate"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Cloud Architecture", "Infrastructure Automation", "Disaster Recovery"]
+  },
+  {
+    "id": 37,
+    "nome": "Tatiana Souza",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Instrutora Técnica",
+    "resumo": "Educadora especializada em treinamento técnico e desenvolvimento de competências",
+    "localizacao": "Recife/PE",
+    "area": "Educação",
+    "habilidadesTecnicas": ["Training Development", "Educational Technology", "Public Speaking", "Curriculum Design"],
+    "softSkills": ["Comunicação", "Paciência", "Empatia", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Tech Education",
+        "cargo": "Senior Instructor",
+        "inicio": "2017-04",
+        "fim": "Presente",
+        "descricao": "Treinamento de 1000+ profissionais em tecnologias emergentes"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Educação Tecnológica",
+        "instituicao": "UFPE",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Bootcamp Python",
+        "link": "https://portfolio.tatiana-souza.com/bootcamp",
+        "descricao": "Bootcamp que formou 500+ desenvolvedores Python"
+      }
+    ],
+    "certificacoes": ["Adult Learning Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Tech Education", "Mentoring", "Skills Development"]
+  },
+  {
+    "id": 38,
+    "nome": "Ulisses Gomes",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Empreendedor",
+    "resumo": "Fundador de múltiplas startups com experiência em escala e growth",
+    "localizacao": "São Paulo/SP",
+    "area": "Empreendedorismo",
+    "habilidadesTecnicas": ["Business Strategy", "Fundraising", "Growth Hacking", "Product Management", "Leadership"],
+    "softSkills": ["Visão estratégica", "Resiliência", "Networking", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Founder Office",
+        "cargo": "Co-founder & CEO",
+        "inicio": "2015-01",
+        "fim": "Presente",
+        "descricao": "Fundador que levou startup a avaliação de unicórnio"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Empreendedorismo",
+        "instituicao": "INSPER",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Startup Unicórnio",
+        "link": "https://portfolio.ulisses-gomes.com/startup",
+        "descricao": "Levou startup de zero a 10M+ usuarios em 5 anos"
+      }
+    ],
+    "certificacoes": ["Y Combinator Alum", "Techstars Graduate"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Startup Ecosystem", "Innovation", "Venture Capital"]
+  },
+  {
+    "id": 39,
+    "nome": "Vanessa Alves",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Partnerships Manager",
+    "resumo": "Gestora de parcerias estratégicas com networks globais consolidados",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Negócios",
+    "habilidadesTecnicas": ["Partnership Strategy", "Negotiation", "CRM", "Analytics", "Business Development"],
+    "softSkills": ["Networking", "Negociação", "Comunicação", "Visão estratégica"],
+    "experiencias": [
+      {
+        "empresa": "Global Partners",
+        "cargo": "Senior Partnerships Manager",
+        "inicio": "2018-08",
+        "fim": "Presente",
+        "descricao": "Gestão de parcerias gerando R$100M+ em receita compartilhada"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Negócios Internacionais",
+        "instituicao": "PUC-MG",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Rede de Parcerias Global",
+        "link": "https://portfolio.vanessa-alves.com/partnerships",
+        "descricao": "Rede com 500+ parceiros estratégicos em 30 países"
+      }
+    ],
+    "certificacoes": ["Strategic Partnerships Certification"],
+    "idiomas": [
+      { "idioma": "Português", "nivel": "Nativo" },
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Francês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["International Partnerships", "Strategic Alliances", "Growth"]
+  },
+  {
+    "id": 40,
+    "nome": "Wagner Silva",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Scrum Master",
+    "resumo": "Agile coach experiente em transformação organizacional e metodologias ágeis",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["Scrum", "Kanban", "Agile Coaching", "Facilitation", "Conflict Resolution"],
+    "softSkills": ["Comunicação", "Liderança", "Empatia", "Facilitação"],
+    "experiencias": [
+      {
+        "empresa": "Agile Excellence",
+        "cargo": "Senior Scrum Master",
+        "inicio": "2017-11",
+        "fim": "Presente",
+        "descricao": "Coaching de 50+ times em transformação ágil"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Certificação Scrum Master Avançado",
+        "instituicao": "Scrum Alliance",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Transformação Ágil Corporativa",
+        "link": "https://portfolio.wagner-silva.com/transformation",
+        "descricao": "Transformação ágil que aumentou produtividade em 60%"
+      }
+    ],
+    "certificacoes": ["CSM", "PSM II", "SAFe Program Consultant"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Agile Transformation", "Team Dynamics", "Continuous Improvement"]
+  },
+  {
+    "id": 41,
+    "nome": "Ximena Gonzalez",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Analytics Engineer",
+    "resumo": "Engenheira especializada em data modeling e business intelligence",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": ["dbt", "SQL", "Data Modeling", "Python", "Looker"],
+    "softSkills": ["Análise lógica", "Comunicação", "Atenção ao detalhe", "Criatividade"],
+    "experiencias": [
+      {
+        "empresa": "Analytics First",
+        "cargo": "Senior Analytics Engineer",
+        "inicio": "2019-09",
+        "fim": "Presente",
+        "descricao": "Desenvolvimento de data warehouse servindo 200+ analistas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Engenharia de Dados",
+        "instituicao": "USP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Data Warehouse Moderno",
+        "link": "https://github.com/ximena-gonzalez/dw-models",
+        "descricao": "Data warehouse com 500+ tabelas e 99.9% uptime"
+      }
+    ],
+    "certificacoes": ["dbt Certified Advanced"],
+    "idiomas": [
+      { "idioma": "Português", "nivel": "Nativo" },
+      { "idioma": "Espanhol", "nivel": "Nativo" },
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Data Modeling", "ETL Optimization", "Analytics Architecture"]
+  },
+  {
+    "id": 42,
+    "nome": "Yuri Martins",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Release Manager",
+    "resumo": "Gerenciador de releases experiente em coordenação de deployments complexos",
+    "localizacao": "Brasília/DF",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Release Management", "CI/CD", "Git", "Jira", "Deployment Strategies"],
+    "softSkills": ["Atenção ao detalhe", "Comunicação", "Resolução de crises", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Release Ops",
+        "cargo": "Senior Release Manager",
+        "inicio": "2018-02",
+        "fim": "Presente",
+        "descricao": "Coordenação de 100+ deployments mensais com 99.99% sucesso"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Sistemas de Informação",
+        "instituicao": "UnB",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Release Pipeline Otimizado",
+        "link": "https://portfolio.yuri-martins.com/pipeline",
+        "descricao": "Pipeline que reduziu tempo de release de 4h para 15min"
+      }
+    ],
+    "certificacoes": ["Continuous Delivery Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Deployment Automation", "Release Strategy", "Zero-Downtime Deployments"]
+  },
+  {
+    "id": 43,
+    "nome": "Zelia Oliveira",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Systems Architect",
+    "resumo": "Arquiteta experiente em desenho de sistemas distribuídos de alta performance",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Arquitetura",
+    "habilidadesTecnicas": ["System Design", "Distributed Systems", "Scalability", "Performance", "Cloud"],
+    "softSkills": ["Pensamento crítico", "Comunicação", "Visão estratégica", "Leadership"],
+    "experiencias": [
+      {
+        "empresa": "Architecture Labs",
+        "cargo": "Principal Systems Architect",
+        "inicio": "2017-05",
+        "fim": "Presente",
+        "descricao": "Arquitetura de sistemas servindo 100M+ usuários"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Ciência da Computação",
+        "instituicao": "UFRJ",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema Distribuído Global",
+        "link": "https://portfolio.zelia-oliveira.com/systems",
+        "descricao": "Sistema distribuído com latência sub-100ms globalmente"
+      }
+    ],
+    "certificacoes": ["AWS Solutions Architect Professional", "System Design Mastery"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Distributed Systems", "System Scalability", "Performance Optimization"]
+  },
+  {
+    "id": 44,
+    "nome": "Adriano Costa",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Pesquisador em IA",
+    "resumo": "Pesquisador focado em pesquisa avançada de IA e aplicações práticas",
+    "localizacao": "São Paulo/SP",
+    "area": "Pesquisa",
+    "habilidadesTecnicas": ["Deep Learning", "Research", "PyTorch", "Computer Vision", "NLP"],
+    "softSkills": ["Pensamento crítico", "Pesquisa", "Comunicação", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "AI Research Institute",
+        "cargo": "Senior AI Researcher",
+        "inicio": "2019-03",
+        "fim": "Presente",
+        "descricao": "Pesquisa em IA com publicações em conferências top"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Doutorado em Inteligência Artificial",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelo Vision Transformer",
+        "link": "https://github.com/adriano-costa/vit",
+        "descricao": "Modelo publicado em conferência CVPR com 50k+ citações"
+      }
+    ],
+    "certificacoes": ["Deep Learning Specialization"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["AI Research", "Computer Vision", "Large Language Models"]
+  },
+  {
+    "id": 45,
+    "nome": "Bruna Fernandes",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Compliance Officer",
+    "resumo": "Profissional especializada em conformidade regulatória e gestão de riscos",
+    "localizacao": "Curitiba/PR",
+    "area": "Conformidade",
+    "habilidadesTecnicas": ["Compliance Management", "Risk Assessment", "Regulatory", "Auditing", "LGPD"],
+    "softSkills": ["Atenção ao detalhe", "Comunicação", "Pensamento crítico", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Compliance Solutions",
+        "cargo": "Senior Compliance Officer",
+        "inicio": "2018-07",
+        "fim": "Presente",
+        "descricao": "Gestão de conformidade para instituição financeira"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de Riscos",
+        "instituicao": "FGV",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Compliance Framework",
+        "link": "https://portfolio.bruna-fernandes.com/framework",
+        "descricao": "Framework LGPD implementado com sucesso em 50+ empresas"
+      }
+    ],
+    "certificacoes": ["LGPD Compliance Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Regulatory Compliance", "Risk Management", "Data Privacy"]
+  },
+  {
+    "id": 46,
+    "nome": "Caio Mendes",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Growth Manager",
+    "resumo": "Especialista em growth hacking e estratégias de escalabilidade",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Crescimento",
+    "habilidadesTecnicas": ["Growth Strategies", "Analytics", "A/B Testing", "Experimentation", "Data"],
+    "softSkills": ["Criatividade", "Análise lógica", "Persistência", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Growth Hacking Labs",
+        "cargo": "Senior Growth Manager",
+        "inicio": "2019-04",
+        "fim": "Presente",
+        "descricao": "Estratégias de growth que escalaram startups de 0 a 10M+ usuários"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Growth Hacking",
+        "instituicao": "ESPM",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Growth Strategy SaaS",
+        "link": "https://portfolio.caio-mendes.com/growth",
+        "descricao": "Estratégia que aumentou MRR em 400% em 12 meses"
+      }
+    ],
+    "certificacoes": ["Growth Hacker Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Growth Hacking", "Product Led Growth", "Viral Loops"]
+  },
+  {
+    "id": 47,
+    "nome": "Danielle Rosa",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Developer Advocate",
+    "resumo": "Defensora de desenvolvedores com expertise em comunidades tech globais",
+    "localizacao": "Recife/PE",
+    "area": "Relações de Desenvolvedores",
+    "habilidadesTecnicas": ["Community Building", "Technical Writing", "Public Speaking", "Content", "Coding"],
+    "softSkills": ["Comunicação", "Networking", "Empatia", "Criatividade"],
+    "experiencias": [
+      {
+        "empresa": "Developer Relations",
+        "cargo": "Senior Developer Advocate",
+        "inicio": "2018-06",
+        "fim": "Presente",
+        "descricao": "Advocacy para comunidade de 100k+ desenvolvedores"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "UFPE",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "DevRel Program",
+        "link": "https://portfolio.danielle-rosa.com/devrel",
+        "descricao": "Programa que aumentou adoção em 300%"
+      }
+    ],
+    "certificacoes": ["DevRel Fundamentals"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Developer Experience", "Community Building", "Open Source"]
+  },
+  {
+    "id": 48,
+    "nome": "Emerson Silva",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Estrategista de Produto",
+    "resumo": "Estrategista com expertise em posicionamento de produtos e mercados",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Produto",
+    "habilidadesTecnicas": ["Product Strategy", "Market Analysis", "Competitive Analysis", "Pricing", "Roadmapping"],
+    "softSkills": ["Visão estratégica", "Comunicação", "Análise lógica", "Negociação"],
+    "experiencias": [
+      {
+        "empresa": "Product Strategy Advisors",
+        "cargo": "Senior Product Strategist",
+        "inicio": "2017-09",
+        "fim": "Presente",
+        "descricao": "Consultoria em estratégia de produto para 50+ startups"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Estratégia de Negócios",
+        "instituicao": "INSPER",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Market Entry Strategy",
+        "link": "https://portfolio.emerson-silva.com/strategy",
+        "descricao": "Estratégia que conquistou 30% market share em 18 meses"
+      }
+    ],
+    "certificacoes": ["Product Management Advanced Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Market Strategy", "Product Positioning", "Business Model Innovation"]
+  },
+  {
+    "id": 49,
+    "nome": "Fabiana Costa",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Platform Engineer",
+    "resumo": "Engenheira de plataforma especializada em developer experience e tooling",
+    "localizacao": "São Paulo/SP",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Platform Engineering", "DevX", "Internal Tools", "CI/CD", "Kubernetes"],
+    "softSkills": ["Resolução de problemas", "Comunicação", "Empatia com dev", "Criatividade"],
+    "experiencias": [
+      {
+        "empresa": "Platform Engineering",
+        "cargo": "Senior Platform Engineer",
+        "inicio": "2020-01",
+        "fim": "Presente",
+        "descricao": "Plataforma interna servindo 500+ engenheiros"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Engenharia de Software",
+        "instituicao": "USP",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Internal Developer Platform",
+        "link": "https://github.com/fabiana-costa/idp",
+        "descricao": "Plataforma que reduziu deployment time em 80%"
+      }
+    ],
+    "certificacoes": ["Platform Engineering Advanced"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Developer Experience", "Platform Tooling", "Internal APIs"]
+  },
+  {
+    "id": 50,
+    "nome": "Gilson Oliveira",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Gerente de Crises",
+    "resumo": "Especialista em gerenciamento de incidentes e comunicação em crises",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["Crisis Management", "Communication", "Risk Assessment", "Planning", "Leadership"],
+    "softSkills": ["Comunicação efetiva", "Liderança", "Calma sob pressão", "Decisão rápida"],
+    "experiencias": [
+      {
+        "empresa": "Crisis Management Group",
+        "cargo": "Senior Crisis Manager",
+        "inicio": "2016-08",
+        "fim": "Presente",
+        "descricao": "Gestão de crises para empresas Fortune 500"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Comunicação Corporativa",
+        "instituicao": "PUC-Rio",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Crisis Response Plan",
+        "link": "https://portfolio.gilson-oliveira.com/crisis",
+        "descricao": "Plano que preparou 100+ organizações para incidentes"
+      }
+    ],
+    "certificacoes": ["Crisis Communication Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Crisis Communication", "Risk Management", "Business Continuity"]
+  },
+  {
+    "id": 51,
+    "nome": "Helena Rocha",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Wellness Officer",
+    "resumo": "Especialista em bem-estar corporativo e saúde mental dos colaboradores",
+    "localizacao": "Curitiba/PR",
+    "area": "Recursos Humanos",
+    "habilidadesTecnicas": ["Wellness Programs", "Mental Health", "Health Analytics", "Program Design"],
+    "softSkills": ["Empatia", "Comunicação", "Escuta ativa", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "Corporate Wellness",
+        "cargo": "Senior Wellness Officer",
+        "inicio": "2018-02",
+        "fim": "Presente",
+        "descricao": "Programa de bem-estar para 5000+ colaboradores"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-Graduação em Wellness",
+        "instituicao": "PUC-SP",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Corporate Wellness Program",
+        "link": "https://portfolio.helena-rocha.com/wellness",
+        "descricao": "Programa que reduziu absenteísmo em 40%"
+      }
+    ],
+    "certificacoes": ["Wellness Coach Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Mental Health", "Work-Life Balance", "Wellness Technology"]
+  },
+  {
+    "id": 52,
+    "nome": "Igor Santos",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Chief Innovation Officer",
+    "resumo": "Oficial de inovação com portfólio de 50+ projetos inovadores implementados",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Inovação",
+    "habilidadesTecnicas": ["Innovation Strategy", "R&D", "Entrepreneurship", "Design Thinking", "Technology Trends"],
+    "softSkills": ["Visão estratégica", "Criatividade", "Liderança", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "Innovation Labs",
+        "cargo": "Chief Innovation Officer",
+        "inicio": "2019-05",
+        "fim": "Presente",
+        "descricao": "Liderança de inovação gerando 50+ novos produtos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Inovação e Empreendedorismo",
+        "instituicao": "INSPER",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Innovation Portfolio",
+        "link": "https://portfolio.igor-santos.com/innovation",
+        "descricao": "Portfolio que gerou R$200M em novas receitas"
+      }
+    ],
+    "certificacoes": ["Design Thinking Certification", "Lean Innovation"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Innovation Strategy", "Technology Trends", "Entrepreneurship"]
+  },
+  {
+    "id": 53,
+    "nome": "Joana Silva",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Localization Manager",
+    "resumo": "Gerente de localização especializada em expansão global de produtos",
+    "localizacao": "São Paulo/SP",
+    "area": "Internacionalização",
+    "habilidadesTecnicas": [
+      "Localization",
+      "Translation Management",
+      "Cultural Adaptation",
+      "Analytics",
+      "Project Management"
+    ],
+    "softSkills": ["Comunicação", "Atenção cultural", "Organização", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "Global Localization",
+        "cargo": "Senior Localization Manager",
+        "inicio": "2017-11",
+        "fim": "Presente",
+        "descricao": "Localização de produtos para 50+ idiomas e culturas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-Graduação em Tradução e Interpretação",
+        "instituicao": "USP",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Global Product Localization",
+        "link": "https://portfolio.joana-silva.com/localization",
+        "descricao": "Localização que aumentou adoção em 400% em novos mercados"
+      }
+    ],
+    "certificacoes": ["Localization Professional Certification"],
+    "idiomas": [
+      { "idioma": "Português", "nivel": "Nativo" },
+      { "idioma": "Inglês", "nivel": "Avançado" },
+      { "idioma": "Espanhol", "nivel": "Avançado" },
+      { "idioma": "Francês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Global Expansion", "Cultural Adaptation", "Translation Technology"]
+  },
+  {
+    "id": 54,
+    "nome": "Kevin Lima",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Desenvolvedor BioTech",
+    "resumo": "Desenvolvedor especializado em soluções tech para biotecnologia",
+    "localizacao": "Brasília/DF",
+    "area": "Biotecnologia",
+    "habilidadesTecnicas": ["Bioinformatics", "Python", "Data Analysis", "Lab Information Systems"],
+    "softSkills": ["Pesquisa", "Atenção ao detalhe", "Comunicação técnica", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "BioTech Solutions",
+        "cargo": "Senior BioTech Developer",
+        "inicio": "2019-03",
+        "fim": "Presente",
+        "descricao": "Desenvolvimento de soluções para 50+ laboratórios"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Bioinformática",
+        "instituicao": "UnB",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Lab Management System",
+        "link": "https://github.com/kevin-lima/lab-system",
+        "descricao": "Sistema que aumentou produtividade do lab em 60%"
+      }
+    ],
+    "certificacoes": ["Bioinformatics Professional Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Bioinformatics", "Medical Technology", "Genomics"]
+  },
+  {
+    "id": 55,
+    "nome": "Laura Gomes",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Food Tech Entrepreneur",
+    "resumo": "Empreendedora inovadora na indústria de tecnologia alimentar",
+    "localizacao": "Recife/PE",
+    "area": "Food Tech",
+    "habilidadesTecnicas": ["Food Tech", "Supply Chain", "Sustainability", "Entrepreneurship", "Product Innovation"],
+    "softSkills": ["Visão estratégica", "Inovação", "Resiliência", "Networking"],
+    "experiencias": [
+      {
+        "empresa": "Founder & CEO",
+        "cargo": "FoodTech Startup",
+        "inicio": "2020-06",
+        "fim": "Presente",
+        "descricao": "Startup que revolucionou produção de alimentos"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "MBA em Sustainability",
+        "instituicao": "PUC-PE",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sustainable Food Production",
+        "link": "https://portfolio.laura-gomes.com/foodtech",
+        "descricao": "Startup com crescimento de 500% e 5M+ usuários"
+      }
+    ],
+    "certificacoes": ["Food Tech Innovation Certificate"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Sustainable Food", "AgriTech", "Supply Chain Innovation"]
+  },
+  {
+    "id": 56,
+    "nome": "Marcos Silva",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Engenheiro de Sistemas de Energia",
+    "resumo": "Engenheiro especializado em soluções de energia renovável e smart grid",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Energia",
+    "habilidadesTecnicas": ["Energy Systems", "Smart Grid", "Solar Technology", "Energy Analytics"],
+    "softSkills": ["Resolução de problemas", "Pesquisa", "Comunicação", "Visão estratégica"],
+    "experiencias": [
+      {
+        "empresa": "Renewable Energy Corp",
+        "cargo": "Senior Energy Systems Engineer",
+        "inicio": "2018-09",
+        "fim": "Presente",
+        "descricao": "Engenharia de sistemas para 100+ projetos de energia renovável"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Engenharia de Energia",
+        "instituicao": "UFRJ",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Smart Grid Implementation",
+        "link": "https://portfolio.marcos-silva.com/energy",
+        "descricao": "Implementação que economizou R$50M em consumo"
+      }
+    ],
+    "certificacoes": ["Solar Professional", "Smart Grid Specialist"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Renewable Energy", "Smart Grid", "Climate Tech"]
+  },
+  {
+    "id": 57,
+    "nome": "Nina Oliveira",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Legal Tech Developer",
+    "resumo": "Desenvolvedora especializada em soluções tecnológicas para jurídico",
+    "localizacao": "São Paulo/SP",
+    "area": "Legal Tech",
+    "habilidadesTecnicas": ["Legal Tech", "Blockchain", "Smart Contracts", "Database Design", "API Development"],
+    "softSkills": ["Atenção ao detalhe", "Comunicação legal", "Pesquisa", "Resolução de problemas"],
+    "experiencias": [
+      {
+        "empresa": "Legal Tech Innovations",
+        "cargo": "Senior Legal Tech Developer",
+        "inicio": "2019-07",
+        "fim": "Presente",
+        "descricao": "Desenvolvimento de 30+ soluções para sector jurídico"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Direito + Mestrado em Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Smart Contract Platform",
+        "link": "https://github.com/nina-oliveira/legal-contracts",
+        "descricao": "Platform que automatizou 1000+ contratos"
+      }
+    ],
+    "certificacoes": ["Blockchain Developer Certification"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Legal Tech", "Blockchain", "Contract Automation"]
+  },
+  {
+    "id": 58,
+    "nome": "Oscar Santos",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "FinTech Architect",
+    "resumo": "Arquiteto especializado em soluções financeiras inovadoras e seguras",
+    "localizacao": "Porto Alegre/RS",
+    "area": "FinTech",
+    "habilidadesTecnicas": ["FinTech Architecture", "Blockchain", "Payment Systems", "Security", "Compliance"],
+    "softSkills": ["Visão estratégica", "Segurança", "Comunicação", "Liderança"],
+    "experiencias": [
+      {
+        "empresa": "FinTech Solutions",
+        "cargo": "Principal FinTech Architect",
+        "inicio": "2018-04",
+        "fim": "Presente",
+        "descricao": "Arquitetura de soluções fintech processando R$1B+ anuais"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Engenharia Financeira",
+        "instituicao": "UFRGS",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Payment Gateway Seguro",
+        "link": "https://portfolio.oscar-santos.com/fintech",
+        "descricao": "Gateway que processou 10M+ transações com zero fraude"
+      }
+    ],
+    "certificacoes": ["Certified FinTech Professional", "Blockchain Security"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Blockchain", "Payment Systems", "Financial Security"]
+  },
+  {
+    "id": 59,
+    "nome": "Paula Mendes",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "EdTech Founder",
+    "resumo": "Fundadora de plataforma educacional com 1M+ alunos ativos",
+    "localizacao": "Curitiba/PR",
+    "area": "EdTech",
+    "habilidadesTecnicas": ["EdTech", "Learning Management", "Curriculum Design", "Analytics", "Entrepreneurship"],
+    "softSkills": ["Visão educacional", "Empreendedorismo", "Comunicação", "Paixão por educação"],
+    "experiencias": [
+      {
+        "empresa": "Founder & CEO",
+        "cargo": "EdTech Platform",
+        "inicio": "2018-01",
+        "fim": "Presente",
+        "descricao": "Plataforma educacional com 1M+ alunos em 10 países"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Educação",
+        "instituicao": "PUC-PR",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Learning Platform",
+        "link": "https://portfolio.paula-mendes.com/edtech",
+        "descricao": "Plataforma que formou 100k+ profissionais"
+      }
+    ],
+    "certificacoes": ["EdTech Innovation Certificate"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Educational Technology", "Curriculum Innovation", "Accessibility in Education"]
+  },
+  {
+    "id": 60,
+    "nome": "Quentin Rocha",
+    "foto": "/placeholder.svg?height=300&width=300",
+    "cargo": "Healthcare Tech Specialist",
+    "resumo": "Especialista em tecnologia para saúde com foco em telemedicina",
+    "localizacao": "Brasília/DF",
+    "area": "HealthTech",
+    "habilidadesTecnicas": ["HealthTech", "Telemedicine", "HIPAA Compliance", "Medical Data", "Healthcare Systems"],
+    "softSkills": ["Empatia", "Atenção ao detalhe", "Comunicação", "Resolução de problemas"],
+    "experiencias": [
+      {
+        "empresa": "HealthTech Innovations",
+        "cargo": "Senior Healthcare Tech Specialist",
+        "inicio": "2019-02",
+        "fim": "Presente",
+        "descricao": "Soluções de telemedicina para 500+ clínicas"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Informática Médica",
+        "instituicao": "UnB",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Telemedicine Platform",
+        "link": "https://portfolio.quentin-rocha.com/health",
+        "descricao": "Platform que atendeu 100k+ pacientes"
+      }
+    ],
+    "certificacoes": ["HIPAA Compliance Specialist"],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }, { "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Telemedicine", "Medical AI", "Healthcare Innovation"]
+  }
+]
