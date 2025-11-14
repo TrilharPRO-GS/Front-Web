@@ -183,7 +183,7 @@
   {
     "id": 5,
     "nome": "Fernanda Costa",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Gerente de Marketing Digital",
     "resumo": "Especialista em growth marketing e estratégias de conversão para startups",
     "localizacao": "Curitiba/PR",
@@ -220,7 +220,7 @@
   {
     "id": 6,
     "nome": "Ricardo Alves",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Data Scientist",
     "resumo": "Cientista de dados com foco em machine learning e análise preditiva",
     "localizacao": "Brasília/DF",
@@ -257,7 +257,7 @@
   {
     "id": 7,
     "nome": "Juliana Torres",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Gerente de Projetos",
     "resumo": "Profissional experiente em gestão ágil e liderança de equipes multidisciplinares",
     "localizacao": "Salvador/BA",
@@ -294,7 +294,7 @@
   {
     "id": 8,
     "nome": "Lucas Ferreira",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Desenvolvedor Frontend",
     "resumo": "Especialista em React e desenvolvimento web moderno com foco em performance",
     "localizacao": "Porto Alegre/RS",
@@ -331,7 +331,7 @@
   {
     "id": 9,
     "nome": "Patricia Gomes",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Product Manager",
     "resumo": "Liderança estratégica em desenvolvimento de produtos digitais com bilhões de usuários",
     "localizacao": "São Paulo/SP",
@@ -368,7 +368,7 @@
   {
     "id": 10,
     "nome": "Bruno Silva",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "DevOps Engineer",
     "resumo": "Especialista em infraestrutura cloud e CI/CD com expertise em automação",
     "localizacao": "Recife/PE",
@@ -405,7 +405,7 @@
   {
     "id": 11,
     "nome": "Gabriela Souza",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Desenvolvedora Mobile",
     "resumo": "Desenvolvedora Flutter e React Native com apps na App Store e Play Store",
     "localizacao": "São Paulo/SP",
@@ -442,7 +442,7 @@
   {
     "id": 12,
     "nome": "Diego Martins",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Especialista em Segurança",
     "resumo": "Expert em cibersegurança com certificações internacionais e experiência em pentesting",
     "localizacao": "São Paulo/SP",
@@ -479,7 +479,7 @@
   {
     "id": 13,
     "nome": "Isabella Rocha",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "UX Researcher",
     "resumo": "Pesquisadora experiente em metodologias qualitativas e quantitativas de UX",
     "localizacao": "Rio de Janeiro/RJ",
@@ -516,7 +516,7 @@
   {
     "id": 14,
     "nome": "Felipe Costa",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Analista de Dados",
     "resumo": "Especialista em business intelligence e dashboards interativos",
     "localizacao": "Brasília/DF",
@@ -553,7 +553,7 @@
   {
     "id": 15,
     "nome": "Camila Fernandes",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "QA Engineer",
     "resumo": "Engenheira de QA especializada em automação de testes e garantia de qualidade",
     "localizacao": "Curitiba/PR",
@@ -590,7 +590,7 @@
   {
     "id": 16,
     "nome": "Víctor Gomes",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Solutions Architect",
     "resumo": "Arquiteto experiente em desenho de soluções cloud para grandes corporações",
     "localizacao": "São Paulo/SP",
@@ -627,7 +627,7 @@
   {
     "id": 17,
     "nome": "Renata Silva",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Content Strategist",
     "resumo": "Estrategista de conteúdo com experiência em múltiplos canais digitais",
     "localizacao": "Recife/PE",
@@ -664,7 +664,7 @@
   {
     "id": 18,
     "nome": "Thiago Oliveira",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Tech Lead",
     "resumo": "Líder técnico com 15 anos de experiência em desenvolvimento de software",
     "localizacao": "Belo Horizonte/MG",
@@ -701,7 +701,7 @@
   {
     "id": 19,
     "nome": "Adriana Santos",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Recrutadora Tech",
     "resumo": "Especialista em recrutamento de talentos tech com network global",
     "localizacao": "São Paulo/SP",
@@ -738,7 +738,7 @@
   {
     "id": 20,
     "nome": "Marcus Aurelio",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "CTO",
     "resumo": "Chief Technology Officer com visão estratégica e liderança em transformação digital",
     "localizacao": "São Paulo/SP",
@@ -775,7 +775,7 @@
   {
     "id": 21,
     "nome": "Beatriz Costa",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Graphic Designer",
     "resumo": "Designer gráfico criativo com expertise em branding e identidade visual",
     "localizacao": "Rio de Janeiro/RJ",
@@ -812,7 +812,7 @@
   {
     "id": 22,
     "nome": "Eduardo Nunes",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Analista Financeiro",
     "resumo": "Especialista em análise financeira e planejamento estratégico para startups",
     "localizacao": "Porto Alegre/RS",
@@ -849,7 +849,7 @@
   {
     "id": 23,
     "nome": "Fernanda Almeida",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Consultora Jurídica",
     "resumo": "Advogada especializada em direito digital e compliance para tech",
     "localizacao": "São Paulo/SP",
@@ -886,7 +886,7 @@
   {
     "id": 24,
     "nome": "Gustavo Rocha",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Sales Manager",
     "resumo": "Gestor de vendas com track record de crescimento exponencial em SaaS",
     "localizacao": "Brasília/DF",
@@ -923,7 +923,7 @@
   {
     "id": 25,
     "nome": "Helena Santos",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Gerente de Operações",
     "resumo": "Especialista em processos operacionais e otimização de performance",
     "localizacao": "Curitiba/PR",
@@ -960,7 +960,7 @@
   {
     "id": 26,
     "nome": "Ignacio Fernandes",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Business Development Manager",
     "resumo": "Profissional com expertise em parcerias estratégicas e expansão de negócios",
     "localizacao": "São Paulo/SP",
@@ -1001,7 +1001,7 @@
   {
     "id": 27,
     "nome": "Juliana Peixoto",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Brand Manager",
     "resumo": "Estrategista de marca com experiência em posicionamento e comunicação",
     "localizacao": "Rio de Janeiro/RJ",
@@ -1038,7 +1038,7 @@
   {
     "id": 28,
     "nome": "Kevin Santana",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Customer Success Manager",
     "resumo": "Especialista em retenção de clientes e maximização de customer lifetime value",
     "localizacao": "Salvador/BA",
@@ -1075,7 +1075,7 @@
   {
     "id": 29,
     "nome": "Larissa Martins",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Cientista Ambiental",
     "resumo": "Pesquisadora em sustentabilidade e impacto ambiental com foco em soluções tech",
     "localizacao": "Recife/PE",
@@ -1112,7 +1112,7 @@
   {
     "id": 30,
     "nome": "Mateus Costa",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Machine Learning Engineer",
     "resumo": "Engenheiro especializado em ML ops e modelos de produção em larga escala",
     "localizacao": "São Paulo/SP",
@@ -1149,7 +1149,7 @@
   {
     "id": 31,
     "nome": "Natalia Ribeiro",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Community Manager",
     "resumo": "Geradora de comunidades online engajadas com expertise em social media",
     "localizacao": "Belo Horizonte/MG",
@@ -1186,7 +1186,7 @@
   {
     "id": 32,
     "nome": "Otavio Gomes",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Database Administrator",
     "resumo": "DBA experiente em otimização de bancos de dados e arquitetura de dados",
     "localizacao": "Porto Alegre/RS",
@@ -1223,7 +1223,7 @@
   {
     "id": 33,
     "nome": "Patricia Oliveira",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Technical Writer",
     "resumo": "Escritora técnica especializada em documentação de APIs e tutoriais",
     "localizacao": "Brasília/DF",
@@ -1260,7 +1260,7 @@
   {
     "id": 34,
     "nome": "Quentin Silva",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Product Designer",
     "resumo": "Designer de produto com foco em user experience e design thinking",
     "localizacao": "São Paulo/SP",
@@ -1297,7 +1297,7 @@
   {
     "id": 35,
     "nome": "Regina Ferreira",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Quality Engineer",
     "resumo": "Engenheira de qualidade especializada em testing estratégico e automação",
     "localizacao": "Curitiba/PR",
@@ -1334,7 +1334,7 @@
   {
     "id": 36,
     "nome": "Samuel Costa",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Infrastructure Engineer",
     "resumo": "Engenheiro de infraestrutura com expertise em cloud e on-premise",
     "localizacao": "Rio de Janeiro/RJ",
@@ -1371,7 +1371,7 @@
   {
     "id": 37,
     "nome": "Tatiana Souza",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Instrutora Técnica",
     "resumo": "Educadora especializada em treinamento técnico e desenvolvimento de competências",
     "localizacao": "Recife/PE",
@@ -1408,7 +1408,7 @@
   {
     "id": 38,
     "nome": "Ulisses Gomes",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Empreendedor",
     "resumo": "Fundador de múltiplas startups com experiência em escala e growth",
     "localizacao": "São Paulo/SP",
@@ -1445,7 +1445,7 @@
   {
     "id": 39,
     "nome": "Vanessa Alves",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Partnerships Manager",
     "resumo": "Gestora de parcerias estratégicas com networks globais consolidados",
     "localizacao": "Belo Horizonte/MG",
@@ -1486,7 +1486,7 @@
   {
     "id": 40,
     "nome": "Wagner Silva",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Scrum Master",
     "resumo": "Agile coach experiente em transformação organizacional e metodologias ágeis",
     "localizacao": "Porto Alegre/RS",
@@ -1523,7 +1523,7 @@
   {
     "id": 41,
     "nome": "Ximena Gonzalez",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Analytics Engineer",
     "resumo": "Engenheira especializada em data modeling e business intelligence",
     "localizacao": "São Paulo/SP",
@@ -1564,7 +1564,7 @@
   {
     "id": 42,
     "nome": "Yuri Martins",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Release Manager",
     "resumo": "Gerenciador de releases experiente em coordenação de deployments complexos",
     "localizacao": "Brasília/DF",
@@ -1601,7 +1601,7 @@
   {
     "id": 43,
     "nome": "Zelia Oliveira",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Systems Architect",
     "resumo": "Arquiteta experiente em desenho de sistemas distribuídos de alta performance",
     "localizacao": "Rio de Janeiro/RJ",
@@ -1638,7 +1638,7 @@
   {
     "id": 44,
     "nome": "Adriano Costa",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Pesquisador em IA",
     "resumo": "Pesquisador focado em pesquisa avançada de IA e aplicações práticas",
     "localizacao": "São Paulo/SP",
@@ -1675,7 +1675,7 @@
   {
     "id": 45,
     "nome": "Bruna Fernandes",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Compliance Officer",
     "resumo": "Profissional especializada em conformidade regulatória e gestão de riscos",
     "localizacao": "Curitiba/PR",
@@ -1712,7 +1712,7 @@
   {
     "id": 46,
     "nome": "Caio Mendes",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Growth Manager",
     "resumo": "Especialista em growth hacking e estratégias de escalabilidade",
     "localizacao": "Porto Alegre/RS",
@@ -1749,7 +1749,7 @@
   {
     "id": 47,
     "nome": "Danielle Rosa",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Developer Advocate",
     "resumo": "Defensora de desenvolvedores com expertise em comunidades tech globais",
     "localizacao": "Recife/PE",
@@ -1786,7 +1786,7 @@
   {
     "id": 48,
     "nome": "Emerson Silva",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Estrategista de Produto",
     "resumo": "Estrategista com expertise em posicionamento de produtos e mercados",
     "localizacao": "Belo Horizonte/MG",
@@ -1823,7 +1823,7 @@
   {
     "id": 49,
     "nome": "Fabiana Costa",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Platform Engineer",
     "resumo": "Engenheira de plataforma especializada em developer experience e tooling",
     "localizacao": "São Paulo/SP",
@@ -1860,7 +1860,7 @@
   {
     "id": 50,
     "nome": "Gilson Oliveira",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Gerente de Crises",
     "resumo": "Especialista em gerenciamento de incidentes e comunicação em crises",
     "localizacao": "Rio de Janeiro/RJ",
@@ -1897,7 +1897,7 @@
   {
     "id": 51,
     "nome": "Helena Rocha",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Wellness Officer",
     "resumo": "Especialista em bem-estar corporativo e saúde mental dos colaboradores",
     "localizacao": "Curitiba/PR",
@@ -1934,7 +1934,7 @@
   {
     "id": 52,
     "nome": "Igor Santos",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Chief Innovation Officer",
     "resumo": "Oficial de inovação com portfólio de 50+ projetos inovadores implementados",
     "localizacao": "Porto Alegre/RS",
@@ -1971,7 +1971,7 @@
   {
     "id": 53,
     "nome": "Joana Silva",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Localization Manager",
     "resumo": "Gerente de localização especializada em expansão global de produtos",
     "localizacao": "São Paulo/SP",
@@ -2019,7 +2019,7 @@
   {
     "id": 54,
     "nome": "Kevin Lima",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Desenvolvedor BioTech",
     "resumo": "Desenvolvedor especializado em soluções tech para biotecnologia",
     "localizacao": "Brasília/DF",
@@ -2056,7 +2056,7 @@
   {
     "id": 55,
     "nome": "Laura Gomes",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Food Tech Entrepreneur",
     "resumo": "Empreendedora inovadora na indústria de tecnologia alimentar",
     "localizacao": "Recife/PE",
@@ -2093,7 +2093,7 @@
   {
     "id": 56,
     "nome": "Marcos Silva",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Engenheiro de Sistemas de Energia",
     "resumo": "Engenheiro especializado em soluções de energia renovável e smart grid",
     "localizacao": "Rio de Janeiro/RJ",
@@ -2130,7 +2130,7 @@
   {
     "id": 57,
     "nome": "Nina Oliveira",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Legal Tech Developer",
     "resumo": "Desenvolvedora especializada em soluções tecnológicas para jurídico",
     "localizacao": "São Paulo/SP",
@@ -2167,7 +2167,7 @@
   {
     "id": 58,
     "nome": "Oscar Santos",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "FinTech Architect",
     "resumo": "Arquiteto especializado em soluções financeiras inovadoras e seguras",
     "localizacao": "Porto Alegre/RS",
@@ -2204,7 +2204,7 @@
   {
     "id": 59,
     "nome": "Paula Mendes",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "EdTech Founder",
     "resumo": "Fundadora de plataforma educacional com 1M+ alunos ativos",
     "localizacao": "Curitiba/PR",
@@ -2241,7 +2241,7 @@
   {
     "id": 60,
     "nome": "Quentin Rocha",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Healthcare Tech Specialist",
     "resumo": "Especialista em tecnologia para saúde com foco em telemedicina",
     "localizacao": "Brasília/DF",

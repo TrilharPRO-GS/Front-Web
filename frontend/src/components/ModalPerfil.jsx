@@ -10,6 +10,8 @@ export default function ModalPerfil({ perfil, onClose, dark }) {
   };
 
   const handleMessage = () => {
+    const msg = prompt(`Enviar mensagem para ${perfil.nome}:`);
+    if (msg) alert('Mensagem enviada: ' + msg);
     setMessageSent(true);
     setTimeout(() => setMessageSent(false), 2000);
   };
