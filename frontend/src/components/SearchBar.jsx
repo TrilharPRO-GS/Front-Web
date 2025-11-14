@@ -1,12 +1,30 @@
+import React, { useState, useMemo } from 'react';
 
-
-import React, { useState } from 'react';
-
-export default function SearchBar({ onFilter, dark }) {
+export default function SearchBar({ perfis, onFilter, dark }) {
   const [query, setQuery] = useState('');
   const [area, setArea] = useState('');
   const [local, setLocal] = useState('');
   const [skill, setSkill] = useState('');
+
+  // Extrair listas automáticas
+  const { areas, cidades, tecnologias } = useMemo(() => {
+    const a = new Set();
+    const c = new Set();
+    const t = new Set();
+
+    perfis.forEach(p => {
+      if (p.area) a.add(p.area);
+      if (p.localizacao) c.add(p.localizacao);
+      if (p.habilidadesTecnicas)
+        p.habilidadesTecnicas.forEach(h => t.add(h));
+    });
+
+    return {
+      areas: Array.from(a).sort(),
+      cidades: Array.from(c).sort(),
+      tecnologias: Array.from(t).sort(),
+    };
+  }, [perfis]);
 
   function handleSearch(e) {
     e.preventDefault();
@@ -22,68 +40,118 @@ export default function SearchBar({ onFilter, dark }) {
   }
 
   return (
-    <form
-      onSubmit={handleSearch}
-      className={`${
-        dark ? 'bg-gray-800 text-white' : 'bg-gray-400 text-black'
-      } p-4 rounded-lg shadow-sm flex flex-col sm:flex-row gap-3 items-center transition-all duration-700 ease-in-out`}
+    <div
+      className={`mb-8 space-y-4 p-6 rounded-lg border shadow-sm transition-all duration-700
+        ${dark ? 'bg-gray-800 border-gray-700 text-white' : 'bg-gray-400 border-gray-300 text-black'}
+      `}
     >
-      <input
-        value={query}
-        onChange={e => setQuery(e.target.value)}
-        placeholder="Buscar por nome ou resumo"
-        className={`flex-1 p-2 rounded border ${
-          dark
-            ? 'bg-gray-700 text-white border-gray-600'
-            : 'bg-white text-black border-gray-400'
-        } transition-colors duration-700`}
-      />
+      {/* Campo de Busca principal */}
+      <div>
+        <label className="block text-sm font-medium mb-2">
+          🔍 Buscar por nome, cargo ou tecnologia
+        </label>
 
-      <input
-        value={area}
-        onChange={e => setArea(e.target.value)}
-        placeholder="Área (ex: Desenvolvimento)"
-        className={`p-2 rounded border ${
-          dark
-            ? 'bg-gray-700 text-white border-gray-600'
-            : 'bg-white text-black border-gray-400'
-        } transition-colors duration-700`}
-      />
-      <input
-        value={local}
-        onChange={e => setLocal(e.target.value)}
-        placeholder="Cidade/Estado"
-        className={`p-2 rounded border ${
-          dark
-            ? 'bg-gray-700 text-white border-gray-600'
-            : 'bg-white text-black border-gray-400'
-        } transition-colors duration-700`}
-      />
-      <input
-        value={skill}
-        onChange={e => setSkill(e.target.value)}
-        placeholder="Tecnologia/Skill"
-        className={`p-2 rounded border ${
-          dark
-            ? 'bg-gray-700 text-white border-gray-600'
-            : 'bg-white text-black border-gray-400'
-        } transition-colors duration-700`}
-      />
-      <div className="flex gap-2">
+        <input
+          type="text"
+          placeholder="Digite sua busca..."
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          className={`w-full px-4 py-2 rounded-md border focus:ring-2 transition-colors duration-700
+            ${dark
+              ? 'bg-gray-700 text-white border-gray-600 focus:ring-indigo-400'
+              : 'bg-white text-black border-gray-500 focus:ring-indigo-600'
+            }
+          `}
+        />
+      </div>
+
+      {/* Grid dos filtros */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+        {/* Área */}
+        <div>
+          <label className="block text-sm font-medium mb-2">🏢 Área Profissional</label>
+          <select
+            value={area}
+            onChange={(e) => setArea(e.target.value)}
+            className={`w-full px-4 py-2 rounded-md border transition-colors duration-700 cursor-pointer
+              ${dark
+                ? 'bg-gray-700 text-white border-gray-600'
+                : 'bg-white text-black border-gray-500'
+              }
+            `}
+          >
+            <option value="">Todas as áreas</option>
+            {areas.map((a, i) => (
+              <option key={i} value={a}>{a}</option>
+            ))}
+          </select>
+        </div>
+
+        {/* Cidade */}
+        <div>
+          <label className="block text-sm font-medium mb-2">📍 Cidade</label>
+          <select
+            value={local}
+            onChange={(e) => setLocal(e.target.value)}
+            className={`w-full px-4 py-2 rounded-md border transition-colors duration-700 cursor-pointer
+              ${dark
+                ? 'bg-gray-700 text-white border-gray-600'
+                : 'bg-white text-black border-gray-500'
+              }
+            `}
+          >
+            <option value="">Todas as cidades</option>
+            {cidades.map((c, i) => (
+              <option key={i} value={c}>{c}</option>
+            ))}
+          </select>
+        </div>
+
+        {/* Tecnologia */}
+        <div>
+          <label className="block text-sm font-medium mb-2">💻 Tecnologia</label>
+          <select
+            value={skill}
+            onChange={(e) => setSkill(e.target.value)}
+            className={`w-full px-4 py-2 rounded-md border transition-colors duration-700 cursor-pointer
+              ${dark
+                ? 'bg-gray-700 text-white border-gray-600'
+                : 'bg-white text-black border-gray-500'
+              }
+            `}
+          >
+            <option value="">Todas as tecnologias</option>
+            {tecnologias.map((t, i) => (
+              <option key={i} value={t}>{t}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+
+      {/* Botões */}
+      <div className="flex gap-3 pt-2">
         <button
-          type="submit"
-          className={`px-4 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700 transition cursor-pointer`}
+          onClick={handleSearch}
+          className="flex-1 bg-indigo-600 text-white px-4 py-2 rounded-md font-medium hover:bg-indigo-700 transition-colors cursor-pointer"
         >
           Buscar
         </button>
-        <button
-          type="button"
-          onClick={clearAll}
-          className={`px-4 py-2 rounded border border-gray-500 ${dark ? 'hover:bg-gray-700' : 'bg-gray-300'} transition-colors duration-700 cursor-pointer`}
-        >
-          Limpar
-        </button>
+
+        {(query || area || local || skill) && (
+          <button
+            onClick={clearAll}
+            className={`flex-1 px-4 py-2 rounded-md font-medium transition-colors cursor-pointer
+              ${dark
+                ? 'bg-gray-700 text-white hover:bg-gray-600'
+                : 'bg-white text-black hover:bg-gray-300'
+              }
+            `}
+          >
+            ✕ Limpar filtros
+          </button>
+        )}
       </div>
-    </form>
+    </div>
   );
 }

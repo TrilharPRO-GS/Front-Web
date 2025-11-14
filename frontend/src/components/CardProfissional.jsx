@@ -4,7 +4,7 @@ export default function CardProfissional({ perfil, onClick, dark }) {
   return (
     <article
       onClick={onClick}
-      className={`cursor-pointer p-4 rounded-lg shadow hover:shadow-lg
+      className={`cursor-pointer p-4 rounded-lg shadow-sm hover:shadow-lg transition-shadow transform hover:scale-105
                  ${dark ? 'bg-gray-800 text-white' : 'bg-gray-400 text-black'}
                  transition-all duration-700 ease-in-out`}
     >
@@ -32,6 +32,7 @@ export default function CardProfissional({ perfil, onClick, dark }) {
             </span>
           ))}
       </div>
+      <p class="text-xs text-primary mt-3 font-medium">Clique para ver perfil completo →</p>
     </article>
   );
 }
