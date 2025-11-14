@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nome": "Ana Silva",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher.png",
     "cargo": "Engenheira de Software",
     "resumo": "Especialista em desenvolvimento full-stack com foco em arquitetura de sistemas escaláveis",
     "localizacao": "São Paulo/SP",
@@ -56,7 +56,7 @@
   {
     "id": 2,
     "nome": "Carlos Mendes",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem.png",
     "cargo": "Analista de Negócios",
     "resumo": "Profissional com 12 anos transformando requisitos complexos em soluções inovadoras",
     "localizacao": "Rio de Janeiro/RJ",
@@ -109,7 +109,7 @@
   {
     "id": 3,
     "nome": "Maria Santos",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/mulher2.png",
     "cargo": "Designer UX/UI",
     "resumo": "Criativa e apaixonada por design centrado no usuário, com prêmios internacionais",
     "localizacao": "São Paulo/SP",
@@ -146,7 +146,7 @@
   {
     "id": 4,
     "nome": "João Oliveira",
-    "foto": "/placeholder.svg?height=300&width=300",
+    "foto": "/homem2.jpg",
     "cargo": "Desenvolvedor Backend",
     "resumo": "Expert em microserviços e APIs REST com experiência em cloud",
     "localizacao": "Belo Horizonte/MG",

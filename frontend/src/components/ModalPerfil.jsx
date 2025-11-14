@@ -28,25 +28,27 @@ export default function ModalPerfil({ perfil, onClose, dark }) {
       className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4 transition-all duration-700 overflow-y-auto"
     >
       <div
-        className={`rounded-xl shadow-2xl max-w-3xl w-full overflow-hidden transition-all duration-700 relative 
+        className={`rounded-xl shadow-2xl max-w-3xl w-full mx-auto overflow-visible transition-all duration-700 relative 
         ${dark ? "bg-gray-800 text-white" : "bg-gray-200 text-black"}`}
         onClick={(e) => e.stopPropagation()} // impede o fechamento interno
       >
         {/* HEADER */}
-        <div className="relative h-80 bg-gradient-to-r from-indigo-500 to-indigo-600 flex items-end">
-
-          {/* ✅ BOTÃO DE FECHAR */}
-          <button
-            onClick={onClose}
-            className="absolute top-4 right-4 text-white hover:bg-white/20 rounded-full p-2 transition cursor-pointer"
-          >
-            ✕
-          </button>
-
+        <div className="relative h-85 bg-gradient-to-r from-indigo-500 to-indigo-600 flex items-end overflow-visible">
           <img
             src={perfil.foto || "/images/avatar1.jpg"}
             className="w-28 h-28 rounded-full border-4 border-white shadow-lg ml-6 mb-4 object-cover"
           />
+
+          {/* ✅ BOTÃO DE FECHAR */}
+          <button
+            onClick={onClose}
+            className="ml-147 mb-23 text-white bg-black/20 backdrop-blur-sm hover:bg-white/20 
+             rounded-full p-2 text-xl transition cursor-pointer"
+          >
+            ✕
+          </button>
+
+          
         </div>
 
         {/* CONTEÚDO */}
