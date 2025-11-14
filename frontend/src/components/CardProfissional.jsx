@@ -4,35 +4,67 @@ export default function CardProfissional({ perfil, onClick, dark }) {
   return (
     <article
       onClick={onClick}
-      className={`cursor-pointer p-4 rounded-lg shadow-sm hover:shadow-lg transition-shadow transform hover:scale-105
-                 ${dark ? 'bg-gray-800 text-white' : 'bg-gray-400 text-black'}
-                 transition-all duration-700 ease-in-out`}
+      className={`
+        cursor-pointer rounded-xl p-5 shadow-md border
+        transition-all duration-500 hover:shadow-xl hover:-translate-y-1
+        ${dark 
+          ? "bg-gray-800 border-gray-700 text-white hover:bg-gray-700"
+          : "bg-gray-200 border-gray-300 text-black hover:bg-gray-100"
+        }
+      `}
     >
+      {/* FOTO + INFO */}
       <div className="flex items-center gap-4">
         <img
-          src={perfil.foto || '/images/avatar1.jpg'}
+          src={perfil.foto || "/images/avatar1.jpg"}
           alt={perfil.nome}
-          className="w-16 h-16 rounded-full object-cover"
+          className="w-16 h-16 rounded-full object-cover shadow"
         />
+
         <div>
-          <h3 className="font-semibold">{perfil.nome}</h3>
-          <p className="text-sm">{perfil.cargo}</p>
-          <p className="text-xs mt-2 flex items-center gap-1">📍 {perfil.localizacao}</p>
+          <h3 className="text-lg font-bold leading-tight">{perfil.nome}</h3>
+          <p className="text-sm opacity-80">{perfil.cargo}</p>
+
+          <p className="text-xs mt-1 opacity-70 flex items-center gap-1">
+            📍 {perfil.localizacao}
+          </p>
         </div>
       </div>
-      <p className="mt-3 text-sm">{perfil.resumo}</p>
-      <div className="mt-3 flex flex-wrap gap-2">
-        {perfil.habilidadesTecnicas &&
-          perfil.habilidadesTecnicas.slice(0, 4).map((s, idx) => (
+
+      {/* RESUMO */}
+      <p className="mt-3 text-sm opacity-90 line-clamp-3">
+        {perfil.resumo}
+      </p>
+
+      {/* HABILIDADES TÉCNICAS */}
+      {perfil.habilidadesTecnicas && (
+        <div className="mt-3 flex flex-wrap gap-2">
+          {perfil.habilidadesTecnicas.slice(0, 4).map((s, idx) => (
             <span
               key={idx}
-              className={`text-xs px-2 py-1 rounded-full border ${dark ? ' border-black' : 'border-gray-200'}`}
+              className={`
+                px-3 py-1 text-xs font-medium rounded-full
+                ${dark 
+                  ? "bg-indigo-900 text-indigo-200"
+                  : "bg-indigo-100 text-indigo-700"
+                }
+              `}
             >
               {s}
             </span>
           ))}
-      </div>
-      <p class="text-xs text-primary mt-3 font-medium">Clique para ver perfil completo →</p>
+        </div>
+      )}
+
+      {/* TEXTO FINAL */}
+      <p
+        className={`
+          text-xs mt-4 font-semibold transition
+          ${dark ? "text-indigo-300" : "text-indigo-700"}
+        `}
+      >
+        Clique para ver perfil completo →
+      </p>
     </article>
   );
 }

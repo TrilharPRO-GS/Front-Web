@@ -42,7 +42,7 @@ export default function SearchBar({ perfis, onFilter, dark }) {
   return (
     <div
       className={`mb-8 space-y-4 p-6 rounded-lg border shadow-sm transition-all duration-700
-        ${dark ? 'bg-gray-800 border-gray-700 text-white' : 'bg-gray-400 border-gray-300 text-black'}
+        ${dark ? 'bg-gray-800 border-gray-700 text-white' : 'bg-gray-200 border-gray-300 text-black'}
       `}
     >
       {/* Campo de Busca principal */}
