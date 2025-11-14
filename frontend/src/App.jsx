@@ -15,21 +15,18 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      {/* Transição global suave entre temas */}
       <div
         className={`min-h-screen transition-colors duration-700 ease-in-out 
-        ${dark ? 'bg-black text-white' : 'bg-gray-200 text-black'}`}
+        ${dark ? 'bg-black text-white' : 'bg-gray-100 text-black'}`}
       >
         <Header dark={dark} setDark={setDark} />
-
         <main className="flex-1 transition-all duration-700 ease-in-out">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home dark={dark} />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </main>
-
-        <Footer />
+        <Footer dark={dark}/>
       </div>
     </BrowserRouter>
   );

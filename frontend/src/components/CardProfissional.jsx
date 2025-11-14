@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default function CardProfissional({ perfil, onClick }) {
+export default function CardProfissional({ perfil, onClick, dark }) {
   return (
     <article
       onClick={onClick}
-      className="cursor-pointer p-4 rounded-lg shadow hover:shadow-lg
-                 bg-gray-200 dark:bg-gray-800 text-black dark:text-white
-                 transition-all duration-700 ease-in-out"
+      className={`cursor-pointer p-4 rounded-lg shadow hover:shadow-lg
+                 ${dark ? 'bg-gray-800 text-white' : 'bg-gray-400 text-black'}
+                 transition-all duration-700 ease-in-out`}
     >
       <div className="flex items-center gap-4">
         <img
@@ -26,7 +26,7 @@ export default function CardProfissional({ perfil, onClick }) {
           perfil.habilidadesTecnicas.slice(0, 4).map((s, idx) => (
             <span
               key={idx}
-              className="text-xs px-2 py-1 rounded-full border border-gray-400 dark:border-gray-200"
+              className={`text-xs px-2 py-1 rounded-full border ${dark ? ' border-black' : 'border-gray-200'}`}
             >
               {s}
             </span>

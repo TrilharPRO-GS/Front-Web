@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ModalPerfil({ perfil, onClose }) {
+export default function ModalPerfil({ perfil, onClose, dark }) {
   function recomendar() {
     alert(`Você recomendou ${perfil.nome}!`);
   }
@@ -13,8 +13,8 @@ export default function ModalPerfil({ perfil, onClose }) {
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4 transition-all duration-700">
       <div
-        className="max-w-3xl w-full rounded-lg p-4 shadow-lg overflow-auto max-h-[90vh]
-                   bg-gray-200 dark:bg-gray-800 text-black dark:text-white transition-all duration-700 ease-in-out"
+        className={`max-w-3xl w-full rounded-lg p-4 shadow-lg overflow-auto max-h-[90vh]
+                   ${dark ? 'bg-gray-800 text-white': 'bg-gray-200 text-black'} transition-all duration-700 ease-in-out`}
       >
         <div className="flex justify-between items-start">
           <div className="flex items-center gap-4">
@@ -29,9 +29,9 @@ export default function ModalPerfil({ perfil, onClose }) {
             </div>
           </div>
           <div className="flex gap-2">
-            <button onClick={recomendar} className="px-3 py-1 bg-yellow-400 rounded">⭐ Recomendar</button>
-            <button onClick={enviarMensagem} className="px-3 py-1 bg-indigo-600 text-white rounded">✉️ Enviar</button>
-            <button onClick={onClose} className="px-3 py-1 border rounded">Fechar</button>
+            <button onClick={recomendar} className="px-3 py-1 bg-yellow-400 rounded cursor-pointer">⭐ Recomendar</button>
+            <button onClick={enviarMensagem} className="px-3 py-1 bg-indigo-600 text-white rounded cursor-pointer">✉️ Enviar</button>
+            <button onClick={onClose} className="px-3 py-1 border rounded cursor-pointer">Fechar</button>
           </div>
         </div>
 
@@ -82,7 +82,7 @@ export default function ModalPerfil({ perfil, onClose }) {
               {perfil.projetos?.map((p, i) => (
                 <li key={i}>
                   <a
-                    className="text-blue-600 dark:text-yellow-300"
+                    className={`${dark ? 'text-yellow-300' : 'text-blue-600'}`}
                     href={p.link || '#'}
                     target="_blank"
                     rel="noreferrer"
