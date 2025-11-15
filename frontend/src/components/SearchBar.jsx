@@ -141,7 +141,7 @@ export default function SearchBar({ perfis, onFilter, dark }) {
         {(query || area || local || skill) && (
           <button
             onClick={clearAll}
-            className={`flex-1 px-4 py-2 rounded-md font-medium transition-colors cursor-pointer
+            className={`flex-1 px-4 py-2 rounded-md font-medium transition-colors duration-700 cursor-pointer
               ${dark
                 ? 'bg-gray-700 text-white hover:bg-gray-600'
                 : 'bg-white text-black hover:bg-gray-300'

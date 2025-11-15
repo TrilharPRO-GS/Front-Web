@@ -10,11 +10,15 @@ export default function ModalPerfil({ perfil, onClose, dark }) {
   };
 
   const handleMessage = () => {
-    const msg = prompt(`Enviar mensagem para ${perfil.nome}:`);
-    if (msg) alert('Mensagem enviada: ' + msg);
+  const msg = prompt(`Enviar mensagem para ${perfil.nome}:`);
+
+  if (msg && msg.trim() !== "") {
+    alert("Mensagem enviada: " + msg);
     setMessageSent(true);
     setTimeout(() => setMessageSent(false), 2000);
-  };
+  }
+};
+
 
   // Fecha ao clicar fora
   function handleClickOutside(e) {
@@ -35,7 +39,7 @@ export default function ModalPerfil({ perfil, onClose, dark }) {
         onClick={(e) => e.stopPropagation()} // impede o fechamento interno
       >
         {/* HEADER */}
-        <div className="relative h-85 bg-gradient-to-r from-indigo-500 to-indigo-600 flex items-end overflow-visible">
+        <div className="relative h-90 md:150 bg-gradient-to-r from-indigo-500 to-indigo-600 flex items-end overflow-visible">
           <img
             src={perfil.foto || "/images/avatar1.jpg"}
             className="w-28 h-28 rounded-full border-4 border-white shadow-lg ml-6 mb-4 object-cover"
@@ -44,8 +48,8 @@ export default function ModalPerfil({ perfil, onClose, dark }) {
           {/* ✅ BOTÃO DE FECHAR */}
           <button
             onClick={onClose}
-            className="ml-147 mb-23 text-white bg-black/20 backdrop-blur-sm hover:bg-white/20 
-             rounded-full p-2 text-xl transition cursor-pointer"
+            className=" ml-128 mb-10 md:ml-145 md:mb-19 sm:mb-22 text-white bg-black/20 backdrop-blur-sm hover:bg-white/20 
+             rounded-full px-3.5 py-2 text-xl transition cursor-pointer"
           >
             ✕
           </button>
@@ -180,7 +184,7 @@ export default function ModalPerfil({ perfil, onClose, dark }) {
                     : "bg-indigo-600 hover:bg-indigo-700 text-white"
                 }`}
             >
-              {recommendationSent ? "✓ Recomendação enviada" : "👍 Recomendar"}
+              {recommendationSent ? "✓ Recomendação feita" : "👍 Recomendar Profissional"}
             </button>
 
             <button

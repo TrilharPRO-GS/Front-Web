@@ -36,6 +36,14 @@ export default function Home({ dark }) { // Recebe 'dark' aqui
   return (
     <div className="min-h-screen max-w-7xl mx-auto p-4">
       <SearchBar perfis={perfis} onFilter={applyFilter} dark={dark} />
+      {filtered.length === 0 && (
+        <p
+          className={`text-center text-lg font-medium mt-6 transition-colors duration-700
+            ${dark ? "text-white" : "text-black"}`}
+        >
+          Nenhuma conta encontrada!
+        </p>
+      )}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         {filtered.map(p => (
           <CardProfissional
