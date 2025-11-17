@@ -225,7 +225,7 @@
     "resumo": "Cientista de dados com foco em machine learning e análise preditiva",
     "localizacao": "Brasília/DF",
     "area": "Dados",
-    "habilidadesTecnicas": ["Python", "R", "TensorFlow", "SQL", "Tableau"],
+    "habilidadesTecnicas": ["Python", "TensorFlow", "SQL", "Tableau"],
     "softSkills": ["Pensamento analítico", "Storytelling", "Curiosidade", "Paciência"],
     "experiencias": [
       {
